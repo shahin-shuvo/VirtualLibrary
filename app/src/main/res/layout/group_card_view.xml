@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_view"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="7dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    card_view:cardCornerRadius="3dp"
+    card_view:cardElevation=".5dp"
+    card_view:contentPadding="4dp"
+    card_view:cardBackgroundColor="#B2BEB5"
+    android:foreground="?selectableItemBackground"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:background="#00755E"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/medicon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="2dp"
+            android:src="@drawable/grad"/>
+
+
+
+        <ImageButton
+            android:id="@+id/delete_cvp"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="2dp"
+            android:layout="@+id/edit_cvp"
+            android:clickable="true"
+            android:src="@drawable/ic_delete_black_24dp"
+            android:background="@color/transparent"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/nameField">
+
+            <ImageView
+                android:id="@+id/nameIcon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/grpname"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/nameHeader"
+                android:layout_alignRight="@+id/nameIcon"
+                android:layout_marginLeft="7dp"
+                android:text="Left Text"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:background="@color/transparent"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_below="@+id/nameField"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/adminField">
+
+            <ImageView
+                android:id="@+id/adminIcon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/admin"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/admin"
+                android:layout_alignRight="@+id/adminIcon"
+                android:layout_marginLeft="7dp"
+                android:text="Left Text"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:background="@color/transparent"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/adminField"
+            android:layout_marginTop="5dp"
+            android:id="@+id/membersField">
+
+            <ImageView
+                android:id="@+id/membersIcon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/lock"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/grpCode"
+                android:layout_alignRight="@+id/membersIcon"
+                android:layout_marginLeft="7dp"
+                android:text="Left Text"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:background="@color/transparent"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
