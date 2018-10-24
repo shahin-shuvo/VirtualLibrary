@@ -1,12 +1,12 @@
 #Internal package file, do not edit.
-#Wed Oct 24 05:35:59 XJT 2018
-2.base=/home/shuvo/Documents/VirtualLibrary-master/app/build/intermediates/transforms/dexMerger/debug/11
+#Wed Oct 24 17:27:55 BDT 2018
+2.base=/home/shanto/AndroidStudioProjects/VirtualLibrary-master/app/build/intermediates/transforms/dexMerger/debug/12
 0.path=classes.dex
 2.baseType=DIRECTORY
-3.base=/home/shuvo/Documents/VirtualLibrary-master/app/build/intermediates/transforms/dexMerger/debug/13
+3.base=/home/shanto/AndroidStudioProjects/VirtualLibrary-master/app/build/intermediates/transforms/dexMerger/debug/13
 2.set=DEX
 1.path=crashlytics-build.properties
-4.base=/home/shuvo/Documents/VirtualLibrary-master/app/build/intermediates/transforms/dexMerger/debug/12
+4.base=/home/shanto/AndroidStudioProjects/VirtualLibrary-master/app/build/intermediates/transforms/dexMerger/debug/14
 count=5
 2.path=classes.dex
 4.set=DEX
@@ -15,9 +15,9 @@ count=5
 1.set=ASSET
 4.path=classes.dex
 1.baseType=DIRECTORY
-0.base=/home/shuvo/Documents/VirtualLibrary-master/app/build/intermediates/transforms/dexMerger/debug/14
+0.base=/home/shanto/AndroidStudioProjects/VirtualLibrary-master/app/build/intermediates/transforms/dexMerger/debug/11
 0.baseType=DIRECTORY
 3.set=DEX
-1.base=/home/shuvo/Documents/VirtualLibrary-master/app/build/intermediates/assets/debug
+1.base=/home/shanto/AndroidStudioProjects/VirtualLibrary-master/app/build/intermediates/assets/debug
 4.baseType=DIRECTORY
 0.set=DEX
