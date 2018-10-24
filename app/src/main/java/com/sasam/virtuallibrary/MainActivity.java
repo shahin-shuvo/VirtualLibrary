@@ -4,7 +4,9 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -59,13 +61,15 @@ public class MainActivity extends AppCompatActivity
 
     private static DatabaseReference myRef;
     private static FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+
+    private BottomNavigationView bottomNavigation;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        setupBottomNavigation();
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -184,6 +188,43 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
+    private void setupBottomNavigation() {
+        BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
+                = new BottomNavigationView.OnNavigationItemSelectedListener() {
+
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                FragmentManager fragmentManager = getSupportFragmentManager();
+
+                switch (item.getItemId()) {
+                    case R.id.navigation_home:
+//                        fragmentManager.beginTransaction()
+//                                .replace(R.id.content_main, new HomeFragment())
+//                                .commit();
+                        return true;
+                    case R.id.navigation_events:
+//                        fragmentManager.beginTransaction()
+//                                .replace(R.id.content_main, new EventFragment())
+//                                .commit();
+                        return true;
+                    case R.id.navigation_profile:
+//                        fragmentManager.beginTransaction()
+//                                .replace(R.id.content_main, new ProfileFragment())
+//                                .commit();
+                        return true;
+                    case R.id.navigation_books:
+//                        fragmentManager.beginTransaction()
+//                                .replace(R.id.content_main, new ProfileFragment())
+//                                .commit();
+                        return true;
+                }
+                return false;
+            }
+
+        };
+        bottomNavigation = findViewById(R.id.navigation);
+        bottomNavigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+    }
 
     public static DatabaseReference Connection(String ref){
          FirebaseDatabase mFirebaseDatabase = FirebaseDatabase.getInstance();
