@@ -56,6 +56,7 @@ public class GroupAdapter extends RecyclerView.Adapter<GroupAdapter.ViewHolder> 
                 @Override
                 public void onClick(View v) {
                      position = getAdapterPosition();
+                    System.out.println("######################"+position);
 
                 }
             });

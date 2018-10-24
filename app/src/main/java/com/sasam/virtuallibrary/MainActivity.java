@@ -79,6 +79,7 @@ public class MainActivity extends AppCompatActivity
         loadNavigationDrawerHeader(navigationView.getHeaderView(0));
 
         loadMyGroupPage();
+
     }
 
     @Override
