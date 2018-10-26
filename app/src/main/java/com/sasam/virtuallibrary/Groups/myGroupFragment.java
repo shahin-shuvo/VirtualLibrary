@@ -118,7 +118,7 @@ public class myGroupFragment extends Fragment {
                     }
 
                 }
-                adapter = new GroupAdapter(listMyGroup);
+                adapter = new GroupAdapter(listMyGroup,getContext());
                 recyclerView.setAdapter(adapter);
             }
             @Override
@@ -147,7 +147,7 @@ public class myGroupFragment extends Fragment {
                     String groupCode = (String) childSnapshot.child("code").getValue();
                     String admin = (String) childSnapshot.child("admin").getValue();
 
-                    GroupDetails temp = new GroupDetails(admin,  groupCode ,groupID, memberList ,groupName);
+                    GroupDetails temp = new GroupDetails(admin,  groupCode ,groupID ,groupName);
                     listAllGroup.add(temp);
 
 

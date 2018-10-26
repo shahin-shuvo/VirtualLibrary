@@ -67,12 +67,12 @@ public class GroupDetails implements Serializable {
 
     private FirebaseAuth mAuth;
     public static GroupDetails temporary;
-    public GroupDetails(String Admin, String Code, String groupID , List Members, String Name)
+    public GroupDetails(String Admin, String Code, String groupID , String Name)
     {
         this.Admin = Admin;
         this.Name = Name;
         this.Code = Code;
-        this.Members = Members;
+       // this.Members = Members;
         this.groupID = groupID;
 
 

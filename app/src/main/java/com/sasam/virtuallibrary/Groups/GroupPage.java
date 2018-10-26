@@ -108,7 +108,7 @@ public class GroupPage extends Activity {
 
                 }
 
-                adapter = new GroupAdapter(listEvent);
+              //  adapter = new GroupAdapter(listEvent,this);
                 recyclerView.setAdapter(adapter);
 
             }

@@ -22,7 +22,6 @@ import com.sasam.virtuallibrary.MainActivity;
 import com.sasam.virtuallibrary.R;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
@@ -78,22 +77,26 @@ public class createGroup extends Fragment {
                     myRef = MainActivity.Connection("Groups");
 
                     String[] members = {MainActivity.getUserID()};
-                    List nameList = new ArrayList<String>(Arrays.asList(members));
+                    List nameList = new ArrayList<String>();
 
                     String tGroupID = myRef.push().getKey();
-
-                    GroupDetails groupDetails = new GroupDetails(MainActivity.getUserName(),  GroupCode ,tGroupID, nameList ,GroupName);
+                    nameList.add(MainActivity.getUserID());
+                    GroupDetails groupDetails = new GroupDetails(MainActivity.getUserName(),  GroupCode ,tGroupID,GroupName);
                     if (tGroupID != null)
                     {
                         myRef.child(tGroupID).setValue(groupDetails);
+                        myRef.child(tGroupID).child("members").push().setValue(MainActivity.getUserID());
                         MainActivity.Connection("Users").child(MainActivity.getUserID()).child("userGroupList").push().setValue(tGroupID);
+                        MainActivity. Connection("GivenGroupCode").push().setValue(GroupCode);
                     }
-                        showAlert(getView(),GroupCode);
+                    showAlert(getView(),GroupCode);
+
+
 
                     groupName.setText(null);
 
                 }
-                else showAlertError(getView());
+
 
                     }
                 });

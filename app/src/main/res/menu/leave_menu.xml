@@ -4,10 +4,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
     <item
-        android:id="@+id/back"
-        app:showAsAction="always|withText"
-        android:title="Join Group"
-        android:icon="@drawable/ic_arrow_back_white_24dp"/>
+        android:id="@+id/confirmLeave"
+        android:title="Leave Group"
+        android:icon="@drawable/ic_more_white_24dp"/>
 
 
 </menu>

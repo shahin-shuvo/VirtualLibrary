@@ -21,6 +21,7 @@ import cn.pedant.SweetAlert.SweetAlertDialog;
 
 public class join_group extends AppCompatActivity {
      public EditText joinCode;
+     public String grpID;
      public Button joinButton;
     public static Activity object;
     private DatabaseReference  groupDatabase,mDatabase;
@@ -51,7 +52,7 @@ public class join_group extends AppCompatActivity {
                 if (!code.equals("") && !code.equals("")) {
 
                     groupDatabase = MainActivity.Connection("Groups");
-                    groupDatabase.addValueEventListener(new ValueEventListener() {
+                    groupDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
                         public void onDataChange(DataSnapshot dataSnapshot) {
 
@@ -60,8 +61,10 @@ public class join_group extends AppCompatActivity {
                                 {
                                     if(!join_group.this.isFinishing())
                                     {
-                                    String grpID = childSnapshot.child("groupID").getValue(String.class);
-                                    MainActivity. Connection("Users").child(MainActivity.getUserID()).child("userGroupList").push().setValue(grpID);
+                                       grpID = childSnapshot.child("groupID").getValue(String.class);
+                                        System.out.println(grpID);
+                                       MainActivity. Connection("Users").child(MainActivity.getUserID()).child("userGroupList").push().setValue(grpID);
+                                       MainActivity. Connection("Groups").child(grpID).child("members").push().setValue(MainActivity.getUserID());
 
                                         showAlertSuccess();
                                     }
