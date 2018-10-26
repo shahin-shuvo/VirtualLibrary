@@ -13,6 +13,8 @@ public class GroupDetails implements Serializable {
     }
 
 
+
+
     public String getCode() {
         return Code;
     }
@@ -31,6 +33,16 @@ public class GroupDetails implements Serializable {
 
 
     private String Code;
+
+    public String getAdminID() {
+        return adminID;
+    }
+
+    public void setAdminID(String adminID) {
+        this.adminID = adminID;
+    }
+
+    private String adminID;
     private String Admin;
     private String groupID;
     private String Name;
@@ -67,19 +79,16 @@ public class GroupDetails implements Serializable {
 
     private FirebaseAuth mAuth;
     public static GroupDetails temporary;
-    public GroupDetails(String Admin, String Code, String groupID , String Name)
+    public GroupDetails(String Admin, String Code, String groupID , String Name , String adminID)
     {
         this.Admin = Admin;
         this.Name = Name;
         this.Code = Code;
        // this.Members = Members;
         this.groupID = groupID;
+        this.adminID = adminID;
 
 
     }
-
-
-
-
 
 }

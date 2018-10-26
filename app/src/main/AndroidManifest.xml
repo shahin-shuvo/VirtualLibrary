@@ -54,7 +54,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Authentication.FacebookAccountHelperActivity" />
-        <activity android:name=".JoinGroup.join_group"></activity>
+        <activity android:name=".JoinGroup.join_group" />
+        <activity android:name=".IndividualGroup.GroupTimeLine"></activity>
     </application>
 
 </manifest>

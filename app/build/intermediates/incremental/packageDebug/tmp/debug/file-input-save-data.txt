@@ -1,6 +1,6 @@
 #Internal package file, do not edit.
-#Fri Oct 26 12:10:02 XJT 2018
-2.base=/home/shuvo/Documents/VirtualLibrary-master/app/build/intermediates/transforms/dexMerger/debug/11
+#Sat Oct 27 02:17:46 XJT 2018
+2.base=/home/shuvo/Documents/VirtualLibrary-master/app/build/intermediates/transforms/dexMerger/debug/14
 0.path=classes.dex
 2.baseType=DIRECTORY
 3.base=/home/shuvo/Documents/VirtualLibrary-master/app/build/intermediates/transforms/dexMerger/debug/13
@@ -15,7 +15,7 @@ count=5
 1.set=ASSET
 4.path=classes.dex
 1.baseType=DIRECTORY
-0.base=/home/shuvo/Documents/VirtualLibrary-master/app/build/intermediates/transforms/dexMerger/debug/14
+0.base=/home/shuvo/Documents/VirtualLibrary-master/app/build/intermediates/transforms/dexMerger/debug/15
 0.baseType=DIRECTORY
 3.set=DEX
 1.base=/home/shuvo/Documents/VirtualLibrary-master/app/build/intermediates/assets/debug

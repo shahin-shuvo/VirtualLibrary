@@ -76,12 +76,9 @@ public class createGroup extends Fragment {
 
                     myRef = MainActivity.Connection("Groups");
 
-                    String[] members = {MainActivity.getUserID()};
-                    List nameList = new ArrayList<String>();
 
                     String tGroupID = myRef.push().getKey();
-                    nameList.add(MainActivity.getUserID());
-                    GroupDetails groupDetails = new GroupDetails(MainActivity.getUserName(),  GroupCode ,tGroupID,GroupName);
+                    GroupDetails groupDetails = new GroupDetails(MainActivity.getUserName(),  GroupCode ,tGroupID,GroupName,MainActivity.getUserID());
                     if (tGroupID != null)
                     {
                         myRef.child(tGroupID).setValue(groupDetails);

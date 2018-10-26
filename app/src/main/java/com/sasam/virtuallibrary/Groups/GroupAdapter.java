@@ -1,7 +1,7 @@
 package com.sasam.virtuallibrary.Groups;
 
 import android.content.Context;
-import android.graphics.Color;
+import android.content.Intent;
 import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.annotation.RequiresApi;
@@ -12,7 +12,7 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.PopupMenu;
 import android.widget.TextView;
@@ -22,6 +22,7 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.ValueEventListener;
+import com.sasam.virtuallibrary.IndividualGroup.GroupTimeLine;
 import com.sasam.virtuallibrary.MainActivity;
 import com.sasam.virtuallibrary.R;
 
@@ -51,7 +52,8 @@ public class GroupAdapter extends RecyclerView.Adapter<GroupAdapter.ViewHolder> 
     {
         public TextView text1,admin,text3,name;
         public TextView   grpCode;
-        public ImageButton delete,arrow,edit;
+        public ImageButton delete,edit;
+        public Button viewTimeline;
         public CardView cv;
         public ViewHolder(View itemView) {
             super(itemView);
@@ -59,6 +61,7 @@ public class GroupAdapter extends RecyclerView.Adapter<GroupAdapter.ViewHolder> 
             name = (TextView) itemView.findViewById(R.id.nameHeader);
             grpCode = (TextView) itemView.findViewById(R.id.grpCode);
            // disableEditText(grpCode);
+            viewTimeline = (Button) itemView.findViewById(R.id.viewGroup) ;
 
             admin=(TextView) itemView.findViewById(R.id.admin);
             delete = (ImageButton) itemView.findViewById(R.id.leaveButton) ;
@@ -90,12 +93,10 @@ public class GroupAdapter extends RecyclerView.Adapter<GroupAdapter.ViewHolder> 
         final GroupDetails temp=list.get(position);
         holder.admin.setText(temp.getAdmin());
         holder.name.setText(temp.getName());
-
-//        Toast.makeText(context.getApplicationContext(), (CharSequence) temp.getMembers().get(0), Toast.LENGTH_SHORT).show();
         holder.grpCode.setText(temp.getCode());
 
 
-
+/* ========================Leave button work ================================== */
         holder.delete.setOnClickListener(new View.OnClickListener() {
             @RequiresApi(api = Build.VERSION_CODES.M)
             @Override
@@ -163,11 +164,23 @@ public class GroupAdapter extends RecyclerView.Adapter<GroupAdapter.ViewHolder> 
                 });
                 popupMenu.show();
 
-
-
-               // mDatabase.child(userId).child(eventID).removeValue();
             }
         });
+        /* ========================Leave button work finished here================================== */
+
+
+        /* ============================= Enter in the group started ===================*/
+        holder.viewTimeline.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context,GroupTimeLine.class);
+                intent.putExtra("GroupID", list.get(position).getGroupID());
+                context.startActivity(intent);
+            }
+        });
+
+        /* ============================= Enter in the group finished ===================*/
+
     }
 
     @Override
@@ -175,10 +188,5 @@ public class GroupAdapter extends RecyclerView.Adapter<GroupAdapter.ViewHolder> 
         return list.size();
     }
 
-    public void disableEditText(EditText editText) {
-        editText.setFocusable(false);
-        editText.setCursorVisible(false);
-        editText.setKeyListener(null);
-        editText.setBackgroundColor(Color.TRANSPARENT);
-    }
+
 }

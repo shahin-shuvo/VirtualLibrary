@@ -146,8 +146,9 @@ public class myGroupFragment extends Fragment {
                     String groupName = (String) childSnapshot.child("name").getValue();
                     String groupCode = (String) childSnapshot.child("code").getValue();
                     String admin = (String) childSnapshot.child("admin").getValue();
+                    String adminID = (String) childSnapshot.child("adminID").getValue();
 
-                    GroupDetails temp = new GroupDetails(admin,  groupCode ,groupID ,groupName);
+                    GroupDetails temp = new GroupDetails(admin,  groupCode ,groupID ,groupName,adminID);
                     listAllGroup.add(temp);
 
 
