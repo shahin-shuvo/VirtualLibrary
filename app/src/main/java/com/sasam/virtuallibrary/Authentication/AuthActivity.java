@@ -14,7 +14,9 @@ import android.widget.Toast;
 import com.firebase.ui.auth.AuthUI;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
 import com.sasam.virtuallibrary.MainActivity;
+import com.sasam.virtuallibrary.Profile.User;
 import com.sasam.virtuallibrary.R;
 
 import java.security.MessageDigest;
@@ -67,6 +69,17 @@ public class AuthActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == RC_SIGN_IN) {
             if (resultCode == RESULT_OK) {
+                FirebaseUser firebaseUser=mFirebaseAuth.getCurrentUser();
+        if(firebaseUser!=null)
+        {
+            Log.d(AUTHENTIC,firebaseUser.getDisplayName()+firebaseUser.getEmail()+firebaseUser.getUid()
+                    +"  "+firebaseUser.getMetadata()+" "+firebaseUser.getProviderData()+" "+firebaseUser.getProviderId());
+            User user=new User(firebaseUser.getDisplayName(),firebaseUser.getEmail(),firebaseUser.getUid());
+            DatabaseReference db=MainActivity.Connection("UserInfo");
+            db.child(user.getUid()).setValue(user);
+
+        }
+
                 // Sign-in succeeded, set up the UI
             } else if (resultCode == RESULT_CANCELED) {
                 // Sign in was canceled by the user, finish the activity
@@ -103,5 +116,7 @@ public class AuthActivity extends AppCompatActivity {
 
         } catch (NoSuchAlgorithmException e) {     }
     }
+
+
 
 }
