@@ -55,7 +55,8 @@
         </activity>
         <activity android:name=".Authentication.FacebookAccountHelperActivity" />
         <activity android:name=".JoinGroup.join_group" />
-        <activity android:name=".IndividualGroup.GroupTimeLine"></activity>
+        <activity android:name=".IndividualGroup.GroupTimeLine" />
+        <activity android:name=".IndividualGroup.VisitMemberProfile"></activity>
     </application>
 
 </manifest>

@@ -14,16 +14,20 @@ import com.sasam.virtuallibrary.R;
 public class GroupTimeLine extends AppCompatActivity {
     BottomBar bottombar;
     Context context;
-    String groupId;
+    String groupId,groupName;
     GroupTimeLine(){
 
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_group_time_line);
+
         Intent intent = getIntent();
         groupId = intent.getExtras().getString("GroupID");
+        groupName = intent.getExtras().getString("GroupName");
+        this.setTitle(String.format(groupName,"GROUP"));
+
+        setContentView(R.layout.activity_group_time_line);
 
         if(getSupportActionBar()!=null)
         {

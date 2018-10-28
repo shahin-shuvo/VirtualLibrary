@@ -175,6 +175,7 @@ public class GroupAdapter extends RecyclerView.Adapter<GroupAdapter.ViewHolder> 
             public void onClick(View view) {
                 Intent intent = new Intent(context,GroupTimeLine.class);
                 intent.putExtra("GroupID", list.get(position).getGroupID());
+                intent.putExtra("GroupName", list.get(position).getName());
                 context.startActivity(intent);
             }
         });

@@ -82,6 +82,7 @@
         <activity android:name="com.sasam.virtuallibrary.Authentication.FacebookAccountHelperActivity" />
         <activity android:name="com.sasam.virtuallibrary.JoinGroup.join_group" />
         <activity android:name="com.sasam.virtuallibrary.IndividualGroup.GroupTimeLine" />
+        <activity android:name="com.sasam.virtuallibrary.IndividualGroup.VisitMemberProfile" />
 
         <meta-data
             android:name="com.google.android.gms.version"

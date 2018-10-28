@@ -56,4 +56,6 @@
     <color name="tab2">#4FC3F7</color>
     <color name="tab1">#00ACC1</color>
     <color name="tab3">#DD2C00</color>
+    <color name="startblue">#4DD0E1</color>
+    <color name="endblue">#AED581</color>
 </resources>
