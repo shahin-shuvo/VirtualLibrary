@@ -1,4 +1,4 @@
-#Sun Oct 28 19:18:56 XJT 2018
-base.0=/home/shuvo/Documents/VirtualLibrary-master/app/build/intermediates/transforms/dexMerger/debug/9
+#Tue Oct 30 02:50:16 XJT 2018
+base.0=/home/shuvo/Documents/VirtualLibrary-master/app/build/intermediates/transforms/dexMerger/debug/8
 path.0=classes.dex
 renamed.0=classes.dex

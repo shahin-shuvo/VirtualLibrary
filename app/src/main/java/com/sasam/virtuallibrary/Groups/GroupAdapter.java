@@ -121,13 +121,11 @@ public class GroupAdapter extends RecyclerView.Adapter<GroupAdapter.ViewHolder> 
                                                 if(Objects.requireNonNull(postsnapshot.getValue()).toString().equals(groupId))
                                                 {
                                                     String key = postsnapshot.getKey();
-                                                    System.out.println(key);
                                                     if (key != null) {
                                                         mDatabase.child(key).removeValue();
 
                                                         // ==========================Below part ========================
                                                         //====================Remove usewr from Group ================================
-                                                        System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
                                                         mRef = MainActivity.Connection("Groups").child(groupId).child("members");
                                                         mRef.addListenerForSingleValueEvent(new ValueEventListener() {
                                                             @Override

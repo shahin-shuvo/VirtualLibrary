@@ -43,20 +43,29 @@ public class thisGroupMemberList implements DataLoadInterface {
         extractData(id ,new MyCallback() {
             @Override
             public void onCallback(List<String> list) {
-                listGroupMember.clear();
-                for( int i = 0;i<memberList.size();i++) {
-                    mDatabase = MainActivity.Connection("UserInfo").child(memberList.get(i));
-                    mDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
+
+                    mDatabase = MainActivity.Connection("UserInfo");
+                    mDatabase.addValueEventListener(new ValueEventListener() {
                         @Override
                         public void onDataChange(DataSnapshot dataSnapshot) {
+                            listGroupMember.clear();
+                            for (DataSnapshot childSnapshot: dataSnapshot.getChildren()) {
+                                String tempUID = childSnapshot.child("uid").getValue(String.class);
+                                for(int i =0;i<memberList.size();i++)
+                                {
+                                    assert tempUID != null;
+                                    if(tempUID.equals(memberList.get(i)) )
+                                     {
+                                         String tempID = childSnapshot.child("uid").getValue(String.class);
+                                         String tempName = childSnapshot.child("name").getValue(String.class);
+                                         Float tempRating = childSnapshot.child("rating").getValue(Float.class);
+                                         String tempMail = childSnapshot.child("email").getValue(String.class);
+                                         MemberClass memberClass = new MemberClass(tempName,tempMail,tempID,tempRating);
+                                         listGroupMember.add(memberClass);
+                                     }
+                                }
 
-                                String tempID = dataSnapshot.child("uid").getValue(String.class);
-                                String tempName = dataSnapshot.child("name").getValue(String.class);
-                                String tempRating = dataSnapshot.child("rating").getValue().toString();
-                                String tempMail = dataSnapshot.child("email").getValue(String.class);
-                                MemberClass memberClass = new MemberClass(tempName,tempMail,tempID,Float.valueOf(tempRating));
-                                listGroupMember.add(memberClass);
-
+                            }
 
                             adapter = new MemberAdapter(listGroupMember, activity);
                             recyclerView.setAdapter(adapter);
@@ -66,7 +75,6 @@ public class thisGroupMemberList implements DataLoadInterface {
                         public void onCancelled(@NonNull DatabaseError databaseError) {
                         }
                     });
-                }
             }
         });
 
@@ -82,11 +90,12 @@ public class thisGroupMemberList implements DataLoadInterface {
 
     /*=============================== For synchronization =============================*/
     public void extractData(String id ,final MyCallback myCallback) {
-        memberList.clear();
+
         groupDatabase = MainActivity.Connection("Groups").child(id).child("members");
         groupDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
+                memberList.clear();
                 for (DataSnapshot childSnapshot: dataSnapshot.getChildren()) {
                     memberList.add(childSnapshot.getValue(String.class));
 

@@ -19,7 +19,7 @@ public class DataLoaderFacade {
 
     public DataLoaderFacade(Activity activity, View view){
         memberList = new thisGroupMemberList(activity,view);
-        memberData = new thisGroupMemberData(activity,view);
+        //memberData = new thisGroupMemberData(activity,view);
     }
 
     public void loadMemberList(String id){
