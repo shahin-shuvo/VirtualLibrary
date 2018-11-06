@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Oct 30 02:59:11 XJT 2018
+#Tue Nov 06 03:19:04 XJT 2018
 2.base=/home/shuvo/Documents/VirtualLibrary-master/app/build/intermediates/transforms/dexMerger/debug/11
 0.path=classes.dex
 2.baseType=DIRECTORY

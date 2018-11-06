@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/joinGroupMenu"
+        app:showAsAction="always|withText"
+        android:title="Join Group"
+        android:icon="@drawable/ic_add_24dp"/>
+    <item
+        android:id="@+id/createGroupMenu"
+        app:showAsAction="always|withText"
+        android:title="Create Group"
+        android:icon="@drawable/ic_add_24dp"/>
+
+
+</menu>

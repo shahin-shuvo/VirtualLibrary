@@ -4,23 +4,6 @@
             "outputFile": "/home/shuvo/Documents/VirtualLibrary-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
-                    "source": "/home/shuvo/.gradle/caches/transforms-1/files-1.1/facebook-login-4.38.0.aar/5815317f3e2e0cd7aeabac409bd93cd0/res/values-en-rGB/values-en-rGB.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,190,302,377",
-                        "endColumns": "134,111,74,147",
-                        "endOffsets": "185,297,372,520"
-                    },
-                    "to": {
-                        "startLines": "30,31,32,33",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "3057,3192,3304,3379",
-                        "endColumns": "134,111,74,147",
-                        "endOffsets": "3187,3299,3374,3522"
-                    }
-                },
-                {
                     "source": "/home/shuvo/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/27035460f82b25f7c26b43c76ed58463/res/values-en-rGB/values.xml",
                     "from": {
                         "startLines": "4",
@@ -52,6 +35,23 @@
                         "startOffsets": "105,6175,6235,6317,6371,6425,6542,6604,6705,6754,6849,6962,7037,7138,7221,7324,7397,7456,7511,7566,7623,7705,7783,7863,7954,8021,8071,8126,8257,8313,8375,8473,8538,8603,8674,8745,8821,8877,8946,9002,9072,9148,9220,9292,9362,9446,9520,9648,9858,9924,10004,10085,10146,10258,10332,10403,10475,10557,10638,10691,10763,10847,10961",
                         "endColumns": "292,59,81,53,53,116,61,100,48,94,112,74,100,82,102,72,58,54,54,56,81,77,79,90,66,49,54,130,55,61,97,64,64,70,70,75,55,68,55,69,75,71,71,69,83,73,127,209,65,79,80,60,111,73,70,71,81,80,52,71,83,113,141",
                         "endOffsets": "393,6230,6312,6366,6420,6537,6599,6700,6749,6844,6957,7032,7133,7216,7319,7392,7451,7506,7561,7618,7700,7778,7858,7949,8016,8066,8121,8252,8308,8370,8468,8533,8598,8669,8740,8816,8872,8941,8997,9067,9143,9215,9287,9357,9441,9515,9643,9853,9919,9999,10080,10141,10253,10327,10398,10470,10552,10633,10686,10758,10842,10956,11098"
+                    }
+                },
+                {
+                    "source": "/home/shuvo/.gradle/caches/transforms-1/files-1.1/facebook-login-4.38.1.aar/e728bfabb36d5b6976cd597cdbeba94a/res/values-en-rGB/values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,190,302,377",
+                        "endColumns": "134,111,74,147",
+                        "endOffsets": "185,297,372,520"
+                    },
+                    "to": {
+                        "startLines": "30,31,32,33",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "3057,3192,3304,3379",
+                        "endColumns": "134,111,74,147",
+                        "endOffsets": "3187,3299,3374,3522"
                     }
                 },
                 {
