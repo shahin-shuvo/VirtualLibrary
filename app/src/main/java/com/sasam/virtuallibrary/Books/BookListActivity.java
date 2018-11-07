@@ -68,14 +68,17 @@ class UserDataRepository implements Subject {   // Observables, will notify when
 
                 final ArrayList<Book> list = new ArrayList<>();
                 DatabaseReference ref = mdatabase.getReference();
-                ref.child("UserInfo").child(user.getUid()).child("BookList").addListenerForSingleValueEvent(new ValueEventListener() {
+                ref.child("Books").addListenerForSingleValueEvent(new ValueEventListener() {
 
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
 
                         for (DataSnapshot bookSnapshot : dataSnapshot.getChildren()) {
                             Book book = bookSnapshot.getValue(Book.class);
-                            list.add(book);
+
+                            if(book.getOwnerID().equals(user.getUid())){
+                                list.add(book);
+                            }
                             //   Log.e("ttt", book.getBookName());
                         }
                         setUserData(list);
@@ -90,11 +93,11 @@ class UserDataRepository implements Subject {   // Observables, will notify when
         }, 10);
     }
 
-    // Creates a Singleton of the class
+
     public static UserDataRepository getInstance() {
-        if (INSTANCE == null) {
+      //  if (INSTANCE == null) {
             INSTANCE = new UserDataRepository();
-        }
+      //  }
         return INSTANCE;
     }
 
@@ -189,7 +192,7 @@ public class BookListActivity extends AppCompatActivity implements RepositoryObs
                 new String[]{"line1", "line2"},
                 new int[]{R.id.line_a, R.id.line_b});
 
-        ListView listView = (ListView) findViewById(R.id.list);
+        ListView listView = (ListView) findViewById(R.id.my_list_view);
         listView.setAdapter(simpleAdapter);
 
 
@@ -205,5 +208,11 @@ public class BookListActivity extends AppCompatActivity implements RepositoryObs
                 startActivity(intent);
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        this.finish();
     }
 }
