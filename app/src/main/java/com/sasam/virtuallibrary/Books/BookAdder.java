@@ -81,7 +81,7 @@ public class BookAdder extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 uploadImage();
-                uploadData();
+
             }
         });
 
@@ -133,7 +133,13 @@ public class BookAdder extends AppCompatActivity {
                         public void onSuccess(Uri uri) {
                             downloadUrl = uri.toString();
                             progressDialog.dismiss();
+<<<<<<< Updated upstream
                            // Toast.makeText(BookAdder.this, downloadUrl, Toast.LENGTH_LONG).show();
+=======
+
+                            Toast.makeText(BookAdder.this, downloadUrl, Toast.LENGTH_LONG).show();
+                            uploadData();
+>>>>>>> Stashed changes
                         }
                     });
                 }
@@ -157,6 +163,9 @@ public class BookAdder extends AppCompatActivity {
 
     private void uploadData(){
 
+        DatabaseReference ref = mdatabase.getReference().child("Books");
+        String bookId = ref.push().getKey();
+
         Book book = new Book();
 
         book.setBookName(nameField.getText().toString().trim());
@@ -169,17 +178,15 @@ public class BookAdder extends AppCompatActivity {
         book.setGroupID("-1");
         book.setStatus("Available");
         book.setCoverUrl(downloadUrl);
+        book.setBookId(bookId);
 
 
-        DatabaseReference ref = mdatabase.getReference().child("UserInfo").child(user.getUid()).child("BookList");
-        String bookId = ref.push().getKey();
         ref.child(bookId).setValue(book);
-        ref.child(bookId).child("coverUrl").setValue(downloadUrl);
+
+
 
         //   this.finish();
 
     }
-
-
 }
 // request.auth != null
