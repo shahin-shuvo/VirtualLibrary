@@ -9,15 +9,14 @@ import android.view.MenuItem;
 
 import com.roughike.bottombar.BottomBar;
 import com.roughike.bottombar.OnMenuTabClickListener;
+import com.sasam.virtuallibrary.IndividualGroup.NewsFeed.GroupNewsFeed;
 import com.sasam.virtuallibrary.R;
 
 public class GroupTimeLine extends AppCompatActivity {
     BottomBar bottombar;
     Context context;
     String groupId,groupName;
-    GroupTimeLine(){
 
-    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,23 +44,27 @@ public class GroupTimeLine extends AppCompatActivity {
             public void onMenuTabSelected(@IdRes int menuItemId) {
                 if(menuItemId == R.id.timeline)
                 {
-                    Timeline timeline = new Timeline ();
+                    GroupNewsFeed myFragment = new   GroupNewsFeed ();
+                    Bundle b = new Bundle();
+                    b.putString("groupID", groupId);
+                    myFragment .setArguments(b);
+                    //THEN NOW SHOW OUR FRAGMENT
                     android.support.v4.app.FragmentTransaction fragmentTransaction =
                             getSupportFragmentManager().beginTransaction();
-                    fragmentTransaction.replace(R.id.bottomTabGroupPage, timeline);
+                    fragmentTransaction.replace(R.id.bottomTabGroupPage, myFragment);
                     fragmentTransaction.commit();
                     // bottombar.getBar().setBackgroundColor(getResources().getColor(R.color.tab2));
-                    bottombar.setActiveTabColor("#DD2C00");
+                    bottombar.setActiveTabColor("#154360");
 
                 }
                 else if(menuItemId == R.id.peoples)
                 {
                    sendData();
                    // bottombar.getBar().setBackgroundColor(getResources().getColor(R.color.tab1));
-                    bottombar.setActiveTabColor("#DD2C00");
+                    bottombar.setActiveTabColor("#154360");
 
                 }
-                bottombar.setBackgroundColor(getResources().getColor(R.color.bottom_bar_color));
+               // bottombar.setBackgroundColor(getResources().getColor(R.color.bottom_bar_color));
 
 
 

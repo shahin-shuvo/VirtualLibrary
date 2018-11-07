@@ -11,8 +11,10 @@ import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -30,10 +32,18 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.sasam.virtuallibrary.Authentication.AuthActivity;
+import com.sasam.virtuallibrary.Books.BookListActivity;
+import com.sasam.virtuallibrary.ChatRoom.ChatListActivity;
+import com.sasam.virtuallibrary.ChatRoom.data.FriendDB;
+import com.sasam.virtuallibrary.ChatRoom.data.GroupDB;
+import com.sasam.virtuallibrary.ChatRoom.service.ServiceUtils;
 import com.sasam.virtuallibrary.CreateGroup.createGroup;
 import com.sasam.virtuallibrary.Groups.GroupDetails;
 import com.sasam.virtuallibrary.Groups.myGroupFragment;
+import com.sasam.virtuallibrary.IndividualGroup.NewsFeed.models.User;
+import com.sasam.virtuallibrary.IndividualGroup.NewsFeed.utils.FirebaseUtils;
 import com.sasam.virtuallibrary.JoinGroup.join_group;
+import com.sasam.virtuallibrary.UI.About;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -70,6 +80,8 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         setupBottomNavigation();
+        User user = new User();
+        String photoUrl = null;
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -110,11 +122,36 @@ public class MainActivity extends AppCompatActivity
 
         switch (item.getItemId()) {
             case R.id.join:
-                Intent intent = new Intent(this, join_group.class);
-                this.startActivity(intent);
+                View menuItemView = findViewById(R.id.join);
+                PopupMenu popupMenu = new PopupMenu(this, menuItemView);
+                popupMenu.setGravity(Gravity.END);
+                popupMenu.inflate(R.menu.menu_list);
+                popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
+                    @Override
+                    public boolean onMenuItemClick(MenuItem item) {
+                        {
+                            int id = item.getItemId();
+                            if(id ==  R.id.joinGroupMenu){
+                                Intent intent = new Intent(getApplicationContext(), join_group.class);
+                                startActivity(intent); }
+
+
+
+                            if(id== R.id.createGroupMenu){
+                                createGroup faid = new createGroup();
+                                android.support.v4.app.FragmentTransaction fragmentTransaction =
+                                        getSupportFragmentManager().beginTransaction();
+                                fragmentTransaction.replace(R.id.fragment_container, faid);
+                                fragmentTransaction.commit();}
+
+                        }
+                        return false;
+                    }
+                });
+                popupMenu.show();
                 return true;
             default:
-                return super.onOptionsItemSelected(item);
+                return true;
         }
     }
 
@@ -127,16 +164,6 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_my_groups) {
                 loadMyGroupPage();
         }
-        else if (id == R.id.nav_group_create) {
-            createGroup faid = new   createGroup();
-            android.support.v4.app.FragmentTransaction fragmentTransaction =
-                    getSupportFragmentManager().beginTransaction();
-            fragmentTransaction.replace(R.id.fragment_container, faid);
-            fragmentTransaction.commit();
-        }
-        else if (id == R.id.nav_join_group) {
-
-        }
         else if (id == R.id.nav_notifications) {
 
         }
@@ -144,7 +171,8 @@ public class MainActivity extends AppCompatActivity
 
         }
         else if (id == R.id.nav_about) {
-
+            Intent intentAbout = new Intent(MainActivity.this, About.class);
+            startActivity(intentAbout);
         }
         else if (id == R.id.nav_privacy_policy) {
 
@@ -155,10 +183,17 @@ public class MainActivity extends AppCompatActivity
         else if (id == R.id.nav_share) {
 
         }
+        else if(id==R.id.nav_message){
+            Intent intent = new Intent(this, ChatListActivity.class);
+            startActivity(intent);
+        }
         else if (id == R.id.nav_about) {
 
         }
         else if(id==R.id.sign_out){
+            FriendDB.getInstance(getApplicationContext()).dropDB();
+            GroupDB.getInstance(getApplicationContext()).dropDB();
+            ServiceUtils.stopServiceFriendChat(getApplicationContext().getApplicationContext(), true);
             AuthUI.getInstance()
                     .signOut(this)
                     .addOnCompleteListener(new OnCompleteListener<Void>() {
@@ -184,6 +219,16 @@ public class MainActivity extends AppCompatActivity
             userNameTextViewNav.setText(user.getDisplayName());
             userEmailTextViewNav.setText(user.getEmail());
             Glide.with(this).load(user.getPhotoUrl()).into(profile_imageView);
+            User userApp = new User();
+            String photoUrl = null;
+            if (user.getPhotoUrl() != null) {
+                userApp.setPhotoUrl(user.getPhotoUrl().toString());
+            }
+
+            userApp.setEmail(user.getEmail());
+            userApp.setUser(user.getDisplayName());
+            userApp.setUid(FirebaseAuth.getInstance().getCurrentUser().getUid());
+            FirebaseUtils.getUserRef(user.getEmail().replace(".", ",")).setValue(userApp);
 
         }
     }
@@ -213,9 +258,9 @@ public class MainActivity extends AppCompatActivity
 //                                .commit();
                         return true;
                     case R.id.navigation_books:
-//                        fragmentManager.beginTransaction()
-//                                .replace(R.id.content_main, new ProfileFragment())
-//                                .commit();
+                        Intent intent = new Intent(MainActivity.this, BookListActivity.class);
+                        startActivity(intent);
+
                         return true;
                 }
                 return false;

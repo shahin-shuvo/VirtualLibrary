@@ -13,6 +13,12 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="MyThemeNoActionbar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
@@ -31,10 +37,16 @@
         <item name="colorAccent">@color/material_purple_a700</item>
         <item name="android:windowBackground">@color/material_green_50</item>
     </style>
-
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#808B96 </item>
+        <item name="colorControlActivated">#F4D03F</item>
+    </style>
     <!--<style name="WarnButton" parent="Widget.AppCompat.Button.Colored">-->
         <!--<item name="colorButtonNormal">@color/material_red_a200</item>-->
         <!--<item name="android:textColor">@android:color/white</item>-->
     <!--</style>-->
+    <style name="EditTextTintTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimaryDark">#0288D1</item>
+    </style>
 
 </resources>
