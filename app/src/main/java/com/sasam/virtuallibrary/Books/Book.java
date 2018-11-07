@@ -16,9 +16,18 @@ public class Book implements Serializable {
     private String currentOwner;
     private String status;
     private String coverUrl;
+    private String bookId;
 
     public Book(){
 
+    }
+
+    public String getBookId() {
+        return bookId;
+    }
+
+    public void setBookId(String bookId) {
+        this.bookId = bookId;
     }
 
     public String getBookName() {

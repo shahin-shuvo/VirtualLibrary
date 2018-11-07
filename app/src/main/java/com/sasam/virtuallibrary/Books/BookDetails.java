@@ -95,7 +95,7 @@ public class BookDetails extends AppCompatActivity {
         imageView = findViewById(R.id.bookCover);
 
 
-        GlideApp.with(this).load(book.getCoverUrl()).apply(new RequestOptions().override(100, 140)).into(imageView);
+        GlideApp.with(this).load(book.getCoverUrl()).apply(new RequestOptions().override(100, 130)).into(imageView);
 
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -145,5 +145,8 @@ public class BookDetails extends AppCompatActivity {
         bookEdition.setText(book.getEdition());
         bookPublisher.setText(book.getPublisher());
         bookStatus.setText("Available");
+
     }
+
+
 }
