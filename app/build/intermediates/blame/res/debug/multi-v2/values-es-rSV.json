@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/shanto/AndroidStudioProjects/VirtualLibrary-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rSV/values-es-rSV.xml",
+            "outputFile": "/home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rSV/values-es-rSV.xml",
             "map": [
                 {
                     "source": "/home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.1.0.aar/a1dadea201e9411a78684405355464f5/res/values-es-rSV/values-es-rSV.xml",

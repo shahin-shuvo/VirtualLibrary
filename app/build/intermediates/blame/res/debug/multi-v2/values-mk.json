@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/shanto/AndroidStudioProjects/VirtualLibrary-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml",
+            "outputFile": "/home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml",
             "map": [
                 {
                     "source": "/home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f011550cedce18bd3fc5c6c2bd9054d1/res/values-mk/values.xml",

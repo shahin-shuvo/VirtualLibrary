@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/shanto/AndroidStudioProjects/VirtualLibrary-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "/home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "/home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4410a1c9f2a10e1d3ca20997c2954f88/res/values-en-rGB/values.xml",
@@ -72,7 +72,7 @@
                     }
                 },
                 {
-                    "source": "/home/shanto/.gradle/caches/transforms-1/files-1.1/facebook-login-4.38.0.aar/336fc26847aa0038180f13b34b3385c3/res/values-en-rGB/values-en-rGB.xml",
+                    "source": "/home/shanto/.gradle/caches/transforms-1/files-1.1/facebook-login-4.38.1.aar/55a5b4bf09dbea6e67a10abed5e93136/res/values-en-rGB/values-en-rGB.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

@@ -5,6 +5,7 @@
 /.idea/libraries
 .DS_Store
 /build
+*.class
 /captures
 .externalNativeBuild
 /keystore.properties
@@ -30,3 +31,4 @@ Thumbs.db
 bin/
 gen/
 out/
+/build

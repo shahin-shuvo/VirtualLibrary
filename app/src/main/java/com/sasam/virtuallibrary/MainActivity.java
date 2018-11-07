@@ -30,10 +30,15 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.sasam.virtuallibrary.Authentication.AuthActivity;
+import com.sasam.virtuallibrary.ChatRoom.ChatListActivity;
+import com.sasam.virtuallibrary.ChatRoom.data.FriendDB;
+import com.sasam.virtuallibrary.ChatRoom.data.GroupDB;
+import com.sasam.virtuallibrary.ChatRoom.service.ServiceUtils;
 import com.sasam.virtuallibrary.CreateGroup.createGroup;
 import com.sasam.virtuallibrary.Groups.GroupDetails;
 import com.sasam.virtuallibrary.Groups.myGroupFragment;
 import com.sasam.virtuallibrary.JoinGroup.join_group;
+import com.sasam.virtuallibrary.UI.About;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -144,13 +149,19 @@ public class MainActivity extends AppCompatActivity
 
         }
         else if (id == R.id.nav_about) {
-
+            Intent intentAbout = new Intent(MainActivity.this, About.class);
+            startActivity(intentAbout);
         }
         else if (id == R.id.nav_privacy_policy) {
+//            FriendsFragment friendsFragment=new FriendsFragment();
+//            FragmentTransaction fragmentTransaction=getSupportFragmentManager().beginTransaction();
+//            fragmentTransaction.replace(R.id.fragment_container,friendsFragment);
+//            fragmentTransaction.commit();
 
         }
-        else if (id == R.id.nav_privacy_policy) {
-
+        else if(id==R.id.nav_message){
+            Intent intent = new Intent(this, ChatListActivity.class);
+            startActivity(intent);
         }
         else if (id == R.id.nav_share) {
 
@@ -159,6 +170,9 @@ public class MainActivity extends AppCompatActivity
 
         }
         else if(id==R.id.sign_out){
+            FriendDB.getInstance(getApplicationContext()).dropDB();
+            GroupDB.getInstance(getApplicationContext()).dropDB();
+            ServiceUtils.stopServiceFriendChat(getApplicationContext().getApplicationContext(), true);
             AuthUI.getInstance()
                     .signOut(this)
                     .addOnCompleteListener(new OnCompleteListener<Void>() {
@@ -179,7 +193,7 @@ public class MainActivity extends AppCompatActivity
         TextView userNameTextViewNav = header.findViewById(R.id.current_user_name);
         TextView userEmailTextViewNav = header.findViewById(R.id.user_email);
         ImageView profile_imageView = header.findViewById(R.id.profile_imageView);
-
+        user = FirebaseAuth.getInstance().getCurrentUser();
         if (user != null) {
             userNameTextViewNav.setText(user.getDisplayName());
             userEmailTextViewNav.setText(user.getEmail());

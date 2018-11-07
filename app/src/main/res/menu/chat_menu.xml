@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ChatRoom.ui.ChatActivity">
+
+    <item
+        android:id="@+id/undo"
+        app:showAsAction="always|withText"
+        android:title="Undo"
+        android:icon="@drawable/ic_undo_black_24dp"/>
+
+    <item
+        android:id="@+id/redo"
+        app:showAsAction="always|withText"
+        android:title="Redo"
+        android:icon="@drawable/ic_redo_black_24dp"/>
+
+
+
+</menu>

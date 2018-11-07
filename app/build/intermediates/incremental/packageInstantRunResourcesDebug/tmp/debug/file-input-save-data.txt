@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Oct 24 17:27:54 BDT 2018
+#Tue Nov 06 04:38:04 BDT 2018
 0.baseType=DIRECTORY
 0.base=/home/shanto/AndroidStudioProjects/VirtualLibrary-master/app/build/intermediates/assets/debug
 0.path=crashlytics-build.properties

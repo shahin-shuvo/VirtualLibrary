@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/shanto/AndroidStudioProjects/VirtualLibrary-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml",
+            "outputFile": "/home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml",
             "map": [
                 {
                     "source": "/home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.1.0.aar/a1dadea201e9411a78684405355464f5/res/values-iw/values-iw.xml",
@@ -72,7 +72,7 @@
                     }
                 },
                 {
-                    "source": "/home/shanto/.gradle/caches/transforms-1/files-1.1/facebook-login-4.38.0.aar/336fc26847aa0038180f13b34b3385c3/res/values-iw/values-iw.xml",
+                    "source": "/home/shanto/.gradle/caches/transforms-1/files-1.1/facebook-login-4.38.1.aar/55a5b4bf09dbea6e67a10abed5e93136/res/values-iw/values-iw.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
