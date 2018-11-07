@@ -101,7 +101,7 @@
                     android:id="@+id/adderEdition"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Eg. 3rd"
+                    android:hint="Optional (Eg. 3rd)"
                     android:textSize="15dp" />
             </LinearLayout>
 
@@ -121,7 +121,7 @@
                     android:id="@+id/adderPublisher"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Eg. Penguin Books"
+                    android:hint="Optional (Eg. Penguin Books)"
                     android:textSize="15dp" />
             </LinearLayout>
 
@@ -129,7 +129,7 @@
             <ImageView
                 android:id="@+id/adderCoverPhoto"
                 android:layout_width="100dp"
-                android:layout_height="140dp"
+                android:layout_height="130dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
                 android:background="@color/gray_btn_bg_color" />
