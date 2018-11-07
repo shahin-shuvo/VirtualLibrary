@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="#34495E "
+    android:padding="20dp"
+    android:layout_gravity="center">
+    <ImageButton
+        android:id="@+id/closePopup"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="2dp"
+        android:background="@color/transparent"
+        android:clickable="true"
+        android:src="@drawable/ic_arrow_back_white_24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/rateicon"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Rate the user for better experiment"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:orientation="vertical"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RatingBar xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/ratingBarCustom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize=".1"
+                android:rating="2.0" />
+        </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnsend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/md_black_1000"/>
+
+</LinearLayout>

@@ -14,7 +14,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="11dp"
-        app:cardCornerRadius="8dp"
+        app:cardCornerRadius="5dp"
         app:cardElevation="3dp"
         android:id="@+id/cardItem"
         app:cardPreventCornerOverlap="false"
@@ -52,17 +52,16 @@
                         android:src="@drawable/grad"/>
 
 
-
                     <ImageButton
-                        android:id="@+id/delete_cvp"
+                        android:id="@+id/leaveButton"
                         android:layout_width="35dp"
                         android:layout_height="30dp"
                         android:layout_alignParentRight="true"
                         android:layout_marginRight="2dp"
-                        android:layout="@+id/edit_cvp"
+                        android:background="@color/transparent"
                         android:clickable="true"
-                        android:src="@drawable/ic_delete_black_24dp"
-                        android:background="@color/transparent"/>
+                        android:layout="@+id/edit_cvp"
+                        android:src="@drawable/ic_more_white_24dp" />
                     <LinearLayout
                         android:orientation="horizontal"
                         android:layout_width="wrap_content"

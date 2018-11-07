@@ -1,39 +1,45 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:2:1-83:12
-INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:2:1-83:12
-INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:2:1-83:12
-INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:2:1-83:12
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:2:1-88:12
+INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:2:1-88:12
+INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:2:1-88:12
+INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:2:1-88:12
 MERGED from [com.firebaseui:firebase-ui-auth:4.1.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.1.0.aar/a1dadea201e9411a78684405355464f5/AndroidManifest.xml:2:1-114:12
+MERGED from [com.roughike:bottom-bar:1.3.9] /home/shanto/.gradle/caches/transforms-1/files-1.1/bottom-bar-1.3.9.aar/15115d403816997fe381151647812494/AndroidManifest.xml:2:1-12:12
 MERGED from [com.android.support:design:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/745da8886172c0b121e1e0a4f489e277/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/shanto/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/313a985e7aa9061c83a322b48dcbe78f/AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.firebase:firebase-database:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/803e046607c4d64006cf6072e19ee452/AndroidManifest.xml:2:1-8:12
+MERGED from [com.firebaseui:firebase-ui-storage:3.2.2] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-storage-3.2.2.aar/7531ba477dd6a878e34748e517862756/AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.firebase:firebase-core:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/8a6409847c0db44a8425ac64227e9cc2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/df0c89e4a5bcf53c9652d3e73dea78ec/AndroidManifest.xml:17:1-34:12
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/b779461a51c8efa2a7c10e3fb1fd515f/AndroidManifest.xml:17:1-55:12
-MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/4784474ee462fc040c01e4df623a49ab/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-auth:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/031f895b8cdb8e6520841531095fe349/AndroidManifest.xml:17:1-38:12
 MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/18618215bfb1e93ff3adadf6102eca1a/AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/5144d908268124696667580bf8f6a02f/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/61853dc3df5a12c0ef2e5b7e9fde9a08/AndroidManifest.xml:17:1-65:12
+MERGED from [com.firebaseui:firebase-ui-database:0.4.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.4.0.aar/8e0467548b519d2cc38800e204208c32/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-database:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/803e046607c4d64006cf6072e19ee452/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/4784474ee462fc040c01e4df623a49ab/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-storage:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.1.aar/eb9d53a05b1985dbe77d942f3a1d8274/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-common:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/f36a6447a5e72ed791ed054a1b20be88/AndroidManifest.xml:2:1-16:12
 MERGED from [com.google.android.gms:play-services-auth:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/1428f761c1fdc089bbbe6b575e95d35c/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/9fa6b91e5e85b57ccb9ee1e72f6d1a42/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/cceeeb1eb9f6ce7c46d22d0cc3fe918b/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/d59c71b6bda13bcb8aaecddfd38fcfcf/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/ed1b8dfae7dd6a12baa68c7133b2acc1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.1.aar/b5727205b4e568856b40e31156035fc8/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/b41d23511807f6e7ac9b7e1f3c8ff7bc/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4410a1c9f2a10e1d3ca20997c2954f88/AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/15015d8be26f99c9ae372ab80b96345d/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/8702c1f9cab3c5ebdeec3dd727307208/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/9fa6b91e5e85b57ccb9ee1e72f6d1a42/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/cceeeb1eb9f6ce7c46d22d0cc3fe918b/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/ef0c8c090f2883beb6836f1e212403e0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/8702c1f9cab3c5ebdeec3dd727307208/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/025dee72eeccaa16fb438006e5d5e9f4/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f011550cedce18bd3fc5c6c2bd9054d1/AndroidManifest.xml:17:1-28:12
 MERGED from [com.facebook.android:facebook-android-sdk:4.38.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.38.1.aar/1f5afd80331446e1a1b2fc46e27ec03f/AndroidManifest.xml:21:1-31:12
 MERGED from [com.facebook.android:facebook-share:4.38.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/facebook-share-4.38.1.aar/e3eba1e6a096fa97bb976c204e9d9898/AndroidManifest.xml:21:1-31:12
 MERGED from [com.facebook.android:facebook-login:4.38.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/facebook-login-4.38.1.aar/55a5b4bf09dbea6e67a10abed5e93136/AndroidManifest.xml:21:1-31:12
 MERGED from [com.facebook.android:facebook-common:4.38.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/facebook-common-4.38.1.aar/6529b4cc55aea2e7137fbb9e52ca79c6/AndroidManifest.xml:21:1-37:12
 MERGED from [com.android.support:support-v4:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/61f0ebae76013e7a878a9ebb6d56f7c1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/498a0121573ae33207d3a007396ddccc/AndroidManifest.xml:2:1-13:12
 MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/4354c26ef86d85b163adcff14d7a45a3/AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.f0ris.sweetalert:library:1.5.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/library-1.5.1.aar/e75d1f0c846ee375059929c25f2eee99/AndroidManifest.xml:2:1-13:12
 MERGED from [com.github.medyo:android-about-page:1.2.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/android-about-page-1.2.1.aar/43d8bf5c07095c753f8552fb5c299bc5/AndroidManifest.xml:2:1-12:12
@@ -46,11 +52,11 @@ MERGED from [com.facebook.android:facebook-marketing:4.38.1] /home/shanto/.gradl
 MERGED from [com.facebook.android:facebook-core:4.38.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/facebook-core-4.38.1.aar/16d9badacef6d6bf93bcc3081db598ff/AndroidManifest.xml:21:1-53:12
 MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/12b03ed2da0e65ee03b1045a51a1bbd6/AndroidManifest.xml:17:1-30:12
 MERGED from [com.android.support:transition:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/298b9868fdc49c7d086218e481e77b00/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/a024bbbce733f08015682468bfa11cf0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.pnikosis:materialish-progress:1.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/materialish-progress-1.0.aar/fa894b8e864832f6202e9594b562fe96/AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/19dd5836b1e24d762ba9ccd1a7c0f2df/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a15034bb8b4062efc67efe04fb072567/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/f32cbadcffca7b8b6df8d57a01b4c4f1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/a024bbbce733f08015682468bfa11cf0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:customtabs:27.1.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/ecad16e8f22e75f60a2ebe46d4c843b0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/e4206c481afda478ea8fbe6c80d72b6c/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/b0b122e7a0998280870ba4a4c9c31b2e/AndroidManifest.xml:17:1-22:12
@@ -77,62 +83,65 @@ MERGED from [com.android.support:interpolator:28.0.0] /home/shanto/.gradle/cache
 MERGED from [com.android.support:documentfile:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/62cfa2194264c5918d86cba5e2f51bf2/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/8661e1c02d097f48ad4488055b395b0c/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/316ac993a21e4fde35d33d5e9cefb503/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/dbbed13efed6431e0818d18959bfae38/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/848fd1ed689a1323525ab644a3107047/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:2:1-83:12
-INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:2:1-83:12
-INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:2:1-83:12
+INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:2:1-88:12
+INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:2:1-88:12
+INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:2:1-88:12
 	package
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:5:5-39
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:4:5-39
 		INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml
 		INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:2:1-83:12
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:2:1-88:12
 		INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:4:5-51
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:2:1-83:12
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:2:1-88:12
 		INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:2:11-69
-	xmlns:ools
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:3:5-57
 uses-permission#android.permission.INTERNET
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:7:5-67
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:6:5-67
 MERGED from [com.firebaseui:firebase-ui-auth:4.1.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.1.0.aar/a1dadea201e9411a78684405355464f5/AndroidManifest.xml:13:5-67
 MERGED from [com.firebaseui:firebase-ui-auth:4.1.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.1.0.aar/a1dadea201e9411a78684405355464f5/AndroidManifest.xml:13:5-67
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/df0c89e4a5bcf53c9652d3e73dea78ec/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/df0c89e4a5bcf53c9652d3e73dea78ec/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/b779461a51c8efa2a7c10e3fb1fd515f/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/b779461a51c8efa2a7c10e3fb1fd515f/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/4784474ee462fc040c01e4df623a49ab/AndroidManifest.xml:8:5-67
-MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/4784474ee462fc040c01e4df623a49ab/AndroidManifest.xml:8:5-67
 MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/18618215bfb1e93ff3adadf6102eca1a/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/18618215bfb1e93ff3adadf6102eca1a/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/61853dc3df5a12c0ef2e5b7e9fde9a08/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/61853dc3df5a12c0ef2e5b7e9fde9a08/AndroidManifest.xml:23:5-67
+MERGED from [com.firebaseui:firebase-ui-database:0.4.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.4.0.aar/8e0467548b519d2cc38800e204208c32/AndroidManifest.xml:11:5-67
+MERGED from [com.firebaseui:firebase-ui-database:0.4.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.4.0.aar/8e0467548b519d2cc38800e204208c32/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/4784474ee462fc040c01e4df623a49ab/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/4784474ee462fc040c01e4df623a49ab/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/025dee72eeccaa16fb438006e5d5e9f4/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/025dee72eeccaa16fb438006e5d5e9f4/AndroidManifest.xml:8:5-67
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:7:22-64
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:8:5-79
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:8:22-76
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:7:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:9:5-81
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:9:22-78
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:8:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:10:5-80
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:9:5-80
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:10:22-77
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:9:22-77
 uses-permission#android.permission.VIBRATE
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:11:5-66
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:10:5-66
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:11:22-63
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:10:22-63
 application
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:13:5-81:19
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:12:5-86:19
 MERGED from [com.firebaseui:firebase-ui-auth:4.1.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.1.0.aar/a1dadea201e9411a78684405355464f5/AndroidManifest.xml:15:5-112:19
 MERGED from [com.firebaseui:firebase-ui-auth:4.1.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.1.0.aar/a1dadea201e9411a78684405355464f5/AndroidManifest.xml:15:5-112:19
 MERGED from [com.android.support:design:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/745da8886172c0b121e1e0a4f489e277/AndroidManifest.xml:22:5-20
@@ -157,16 +166,16 @@ MERGED from [com.google.firebase:firebase-common:16.0.0] /home/shanto/.gradle/ca
 MERGED from [com.google.firebase:firebase-common:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/f36a6447a5e72ed791ed054a1b20be88/AndroidManifest.xml:8:5-14:19
 MERGED from [com.google.android.gms:play-services-auth:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/1428f761c1fdc089bbbe6b575e95d35c/AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.android.gms:play-services-auth:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/1428f761c1fdc089bbbe6b575e95d35c/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/9fa6b91e5e85b57ccb9ee1e72f6d1a42/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/9fa6b91e5e85b57ccb9ee1e72f6d1a42/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/cceeeb1eb9f6ce7c46d22d0cc3fe918b/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/cceeeb1eb9f6ce7c46d22d0cc3fe918b/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/b41d23511807f6e7ac9b7e1f3c8ff7bc/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/b41d23511807f6e7ac9b7e1f3c8ff7bc/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4410a1c9f2a10e1d3ca20997c2954f88/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4410a1c9f2a10e1d3ca20997c2954f88/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/15015d8be26f99c9ae372ab80b96345d/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/15015d8be26f99c9ae372ab80b96345d/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/9fa6b91e5e85b57ccb9ee1e72f6d1a42/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/9fa6b91e5e85b57ccb9ee1e72f6d1a42/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/cceeeb1eb9f6ce7c46d22d0cc3fe918b/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/cceeeb1eb9f6ce7c46d22d0cc3fe918b/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/ef0c8c090f2883beb6836f1e212403e0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/ef0c8c090f2883beb6836f1e212403e0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f011550cedce18bd3fc5c6c2bd9054d1/AndroidManifest.xml:22:5-26:19
@@ -179,6 +188,8 @@ MERGED from [com.facebook.android:facebook-login:4.38.1] /home/shanto/.gradle/ca
 MERGED from [com.facebook.android:facebook-login:4.38.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/facebook-login-4.38.1.aar/55a5b4bf09dbea6e67a10abed5e93136/AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-common:4.38.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/facebook-common-4.38.1.aar/6529b4cc55aea2e7137fbb9e52ca79c6/AndroidManifest.xml:28:5-35:19
 MERGED from [com.facebook.android:facebook-common:4.38.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/facebook-common-4.38.1.aar/6529b4cc55aea2e7137fbb9e52ca79c6/AndroidManifest.xml:28:5-35:19
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/498a0121573ae33207d3a007396ddccc/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/498a0121573ae33207d3a007396ddccc/AndroidManifest.xml:11:5-20
 MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/4354c26ef86d85b163adcff14d7a45a3/AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/4354c26ef86d85b163adcff14d7a45a3/AndroidManifest.xml:9:5-20
 MERGED from [com.github.f0ris.sweetalert:library:1.5.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/library-1.5.1.aar/e75d1f0c846ee375059929c25f2eee99/AndroidManifest.xml:11:5-20
@@ -203,173 +214,195 @@ MERGED from [com.android.support:support-compat:28.0.0] /home/shanto/.gradle/cac
 MERGED from [com.android.support:support-compat:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/13b84eb5760fd7d2241f84196b3369fc/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/9320210b0e9fc54b97f9fe03f559c2b4/AndroidManifest.xml:22:5-23:19
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/9320210b0e9fc54b97f9fe03f559c2b4/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/dbbed13efed6431e0818d18959bfae38/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/dbbed13efed6431e0818d18959bfae38/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/848fd1ed689a1323525ab644a3107047/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/848fd1ed689a1323525ab644a3107047/AndroidManifest.xml:22:5-20
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/13b84eb5760fd7d2241f84196b3369fc/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:18:9-35
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:16:9-41
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:15:9-41
 	android:roundIcon
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:17:9-54
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:16:9-46
 	android:icon
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:15:9-43
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:14:9-41
 		REJECTED from [com.pnikosis:materialish-progress:1.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/materialish-progress-1.0.aar/fa894b8e864832f6202e9594b562fe96/AndroidManifest.xml:13:9-45
 	android:allowBackup
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:19:9-40
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:18:9-40
 	tools:replace
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:20:9-37
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:19:9-37
 activity#com.sasam.virtuallibrary.Authentication.AuthActivity
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:21:9-30:20
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:20:9-29:20
 	android:label
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:23:13-45
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:22:13-45
 	android:theme
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:24:13-56
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:23:13-56
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:22:13-56
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:21:13-56
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:25:13-29:29
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:26:17-69
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:26:25-66
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:28:17-77
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:28:27-74
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:27:27-74
 activity#com.sasam.virtuallibrary.MainActivity
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:31:9-35:59
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:30:9-34:59
 	android:label
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:33:13-45
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:32:13-45
 	android:launchMode
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:34:13-43
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:33:13-43
 	android:theme
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:35:13-56
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:34:13-56
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:32:13-41
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:31:13-41
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:37:9-39:63
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:36:9-38:63
 MERGED from [com.firebaseui:firebase-ui-auth:4.1.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.1.0.aar/a1dadea201e9411a78684405355464f5/AndroidManifest.xml:19:9-21:63
 MERGED from [com.firebaseui:firebase-ui-auth:4.1.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.1.0.aar/a1dadea201e9411a78684405355464f5/AndroidManifest.xml:19:9-21:63
 	android:value
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:39:13-60
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:38:13-60
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:38:13-58
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:37:13-58
 activity#com.facebook.FacebookActivity
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:41:9-44:48
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:40:9-43:48
 MERGED from [com.firebaseui:firebase-ui-auth:4.1.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.1.0.aar/a1dadea201e9411a78684405355464f5/AndroidManifest.xml:88:9-92:48
 MERGED from [com.firebaseui:firebase-ui-auth:4.1.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.1.0.aar/a1dadea201e9411a78684405355464f5/AndroidManifest.xml:88:9-92:48
 MERGED from [com.facebook.android:facebook-common:4.38.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/facebook-common-4.38.1.aar/6529b4cc55aea2e7137fbb9e52ca79c6/AndroidManifest.xml:29:9-32:66
 MERGED from [com.facebook.android:facebook-common:4.38.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/facebook-common-4.38.1.aar/6529b4cc55aea2e7137fbb9e52ca79c6/AndroidManifest.xml:29:9-32:66
 	android:label
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:44:13-45
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:43:13-45
 	tools:ignore
 		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.1.0.aar/a1dadea201e9411a78684405355464f5/AndroidManifest.xml:92:13-45
 	android:configChanges
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:43:13-96
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:42:13-96
 	android:theme
 		ADDED from [com.facebook.android:facebook-common:4.38.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/facebook-common-4.38.1.aar/6529b4cc55aea2e7137fbb9e52ca79c6/AndroidManifest.xml:32:13-63
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:42:13-57
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:41:13-57
 activity#com.facebook.CustomTabActivity
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:45:9-56:20
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:44:9-55:20
 MERGED from [com.firebaseui:firebase-ui-auth:4.1.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.1.0.aar/a1dadea201e9411a78684405355464f5/AndroidManifest.xml:93:9-105:20
 MERGED from [com.firebaseui:firebase-ui-auth:4.1.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.1.0.aar/a1dadea201e9411a78684405355464f5/AndroidManifest.xml:93:9-105:20
 MERGED from [com.facebook.android:facebook-common:4.38.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/facebook-common-4.38.1.aar/6529b4cc55aea2e7137fbb9e52ca79c6/AndroidManifest.xml:34:9-67
 MERGED from [com.facebook.android:facebook-common:4.38.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/facebook-common-4.38.1.aar/6529b4cc55aea2e7137fbb9e52ca79c6/AndroidManifest.xml:34:9-67
 	android:exported
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:47:13-36
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:46:13-36
 	tools:ignore
 		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.1.0.aar/a1dadea201e9411a78684405355464f5/AndroidManifest.xml:96:13-45
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:46:13-58
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:45:13-58
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:48:13-55:29
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:47:13-54:29
 action#android.intent.action.VIEW
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:49:17-69
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:48:17-69
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:49:25-66
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:48:25-66
 category#android.intent.category.DEFAULT
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:51:17-76
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:50:17-76
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:51:27-73
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:50:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:52:17-78
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:51:17-78
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:52:27-75
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:51:27-75
 data
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:54:17-75
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:53:17-75
 	android:scheme
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:54:23-72
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:53:23-72
 activity#com.sasam.virtuallibrary.Authentication.FacebookAccountHelperActivity
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:57:9-82
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:56:9-82
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:57:19-79
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:56:19-79
 activity#com.sasam.virtuallibrary.JoinGroup.join_group
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:58:9-58
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:57:9-58
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:58:19-55
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:57:19-55
+activity#com.sasam.virtuallibrary.Books.BookListActivity
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:58:9-60
+	android:name
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:58:19-57
+activity#com.sasam.virtuallibrary.Books.BookAdder
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:59:9-53
+	android:name
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:59:19-50
+activity#com.sasam.virtuallibrary.IndividualGroup.GroupTimeLine
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:60:9-67
+	android:name
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:60:19-64
+activity#com.sasam.virtuallibrary.IndividualGroup.VisitMemberProfile
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:61:9-72
+	android:name
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:61:19-69
+activity#com.sasam.virtuallibrary.IndividualGroup.NewsFeed.PostCommentActivity
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:62:9-82
+	android:name
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:62:19-79
 activity#com.sasam.virtuallibrary.UI.About
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:59:9-61:58
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:64:9-66:58
 	android:parentActivityName
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:61:13-55
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:66:13-55
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:60:13-37
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:65:13-37
 activity#com.sasam.virtuallibrary.ChatRoom.ChatListActivity
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:62:9-66:43
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:67:9-71:43
 	android:screenOrientation
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:65:13-49
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:70:13-49
 	android:parentActivityName
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:64:13-55
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:69:13-55
 	android:label
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:66:13-41
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:71:13-41
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:63:13-54
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:68:13-54
 service#com.sasam.virtuallibrary.ChatRoom.service.FriendChatService
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:68:9-71:41
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:73:9-76:41
 	android:exported
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:70:13-37
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:75:13-37
 	android:persistent
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:71:13-38
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:76:13-38
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:69:13-63
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:74:13-63
 activity#com.sasam.virtuallibrary.ChatRoom.ui.ChatActivity
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:73:9-76:70
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:78:9-81:70
 	android:screenOrientation
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:75:13-49
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:80:13-49
 	android:parentActivityName
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:76:13-68
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:81:13-68
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:74:13-53
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:79:13-53
 activity#com.sasam.virtuallibrary.ChatRoom.ui.AddGroupActivity
-ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:78:9-79:56
+ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:83:9-84:56
 	android:theme
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:79:13-54
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:84:13-54
 	android:name
-		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:78:19-63
+		ADDED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml:83:19-63
 uses-sdk
 INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml
 INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml
 MERGED from [com.firebaseui:firebase-ui-auth:4.1.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.1.0.aar/a1dadea201e9411a78684405355464f5/AndroidManifest.xml:8:5-10:41
 MERGED from [com.firebaseui:firebase-ui-auth:4.1.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.1.0.aar/a1dadea201e9411a78684405355464f5/AndroidManifest.xml:8:5-10:41
+MERGED from [com.roughike:bottom-bar:1.3.9] /home/shanto/.gradle/caches/transforms-1/files-1.1/bottom-bar-1.3.9.aar/15115d403816997fe381151647812494/AndroidManifest.xml:8:5-10:41
+MERGED from [com.roughike:bottom-bar:1.3.9] /home/shanto/.gradle/caches/transforms-1/files-1.1/bottom-bar-1.3.9.aar/15115d403816997fe381151647812494/AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support:design:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/745da8886172c0b121e1e0a4f489e277/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/745da8886172c0b121e1e0a4f489e277/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/shanto/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/313a985e7aa9061c83a322b48dcbe78f/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/shanto/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/313a985e7aa9061c83a322b48dcbe78f/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-database:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/803e046607c4d64006cf6072e19ee452/AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-database:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/803e046607c4d64006cf6072e19ee452/AndroidManifest.xml:6:5-44
+MERGED from [com.firebaseui:firebase-ui-storage:3.2.2] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-storage-3.2.2.aar/7531ba477dd6a878e34748e517862756/AndroidManifest.xml:8:5-10:41
+MERGED from [com.firebaseui:firebase-ui-storage:3.2.2] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-storage-3.2.2.aar/7531ba477dd6a878e34748e517862756/AndroidManifest.xml:8:5-10:41
 MERGED from [com.google.firebase:firebase-core:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/8a6409847c0db44a8425ac64227e9cc2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-core:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/8a6409847c0db44a8425ac64227e9cc2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/df0c89e4a5bcf53c9652d3e73dea78ec/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/df0c89e4a5bcf53c9652d3e73dea78ec/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/b779461a51c8efa2a7c10e3fb1fd515f/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/b779461a51c8efa2a7c10e3fb1fd515f/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/4784474ee462fc040c01e4df623a49ab/AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/4784474ee462fc040c01e4df623a49ab/AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-auth:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/031f895b8cdb8e6520841531095fe349/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/031f895b8cdb8e6520841531095fe349/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/18618215bfb1e93ff3adadf6102eca1a/AndroidManifest.xml:20:5-44
@@ -378,10 +411,22 @@ MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/shanto/.gra
 MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/5144d908268124696667580bf8f6a02f/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/61853dc3df5a12c0ef2e5b7e9fde9a08/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/61853dc3df5a12c0ef2e5b7e9fde9a08/AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-database:0.4.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.4.0.aar/8e0467548b519d2cc38800e204208c32/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-database:0.4.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-0.4.0.aar/8e0467548b519d2cc38800e204208c32/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/803e046607c4d64006cf6072e19ee452/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/803e046607c4d64006cf6072e19ee452/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/4784474ee462fc040c01e4df623a49ab/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/4784474ee462fc040c01e4df623a49ab/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.1.aar/eb9d53a05b1985dbe77d942f3a1d8274/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.1.aar/eb9d53a05b1985dbe77d942f3a1d8274/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/f36a6447a5e72ed791ed054a1b20be88/AndroidManifest.xml:5:5-6:37
 MERGED from [com.google.firebase:firebase-common:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/f36a6447a5e72ed791ed054a1b20be88/AndroidManifest.xml:5:5-6:37
 MERGED from [com.google.android.gms:play-services-auth:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/1428f761c1fdc089bbbe6b575e95d35c/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.1.aar/1428f761c1fdc089bbbe6b575e95d35c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/9fa6b91e5e85b57ccb9ee1e72f6d1a42/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/9fa6b91e5e85b57ccb9ee1e72f6d1a42/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/cceeeb1eb9f6ce7c46d22d0cc3fe918b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/cceeeb1eb9f6ce7c46d22d0cc3fe918b/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/d59c71b6bda13bcb8aaecddfd38fcfcf/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/d59c71b6bda13bcb8aaecddfd38fcfcf/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/ed1b8dfae7dd6a12baa68c7133b2acc1/AndroidManifest.xml:5:5-44
@@ -394,14 +439,12 @@ MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/shanto/.gra
 MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4410a1c9f2a10e1d3ca20997c2954f88/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/15015d8be26f99c9ae372ab80b96345d/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/15015d8be26f99c9ae372ab80b96345d/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/8702c1f9cab3c5ebdeec3dd727307208/AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/8702c1f9cab3c5ebdeec3dd727307208/AndroidManifest.xml:6:5-44
-MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/9fa6b91e5e85b57ccb9ee1e72f6d1a42/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/9fa6b91e5e85b57ccb9ee1e72f6d1a42/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/cceeeb1eb9f6ce7c46d22d0cc3fe918b/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/cceeeb1eb9f6ce7c46d22d0cc3fe918b/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/ef0c8c090f2883beb6836f1e212403e0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/ef0c8c090f2883beb6836f1e212403e0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/8702c1f9cab3c5ebdeec3dd727307208/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/8702c1f9cab3c5ebdeec3dd727307208/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/025dee72eeccaa16fb438006e5d5e9f4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/025dee72eeccaa16fb438006e5d5e9f4/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f011550cedce18bd3fc5c6c2bd9054d1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f011550cedce18bd3fc5c6c2bd9054d1/AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.android:facebook-android-sdk:4.38.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.38.1.aar/1f5afd80331446e1a1b2fc46e27ec03f/AndroidManifest.xml:24:5-26:41
@@ -414,6 +457,8 @@ MERGED from [com.facebook.android:facebook-common:4.38.1] /home/shanto/.gradle/c
 MERGED from [com.facebook.android:facebook-common:4.38.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/facebook-common-4.38.1.aar/6529b4cc55aea2e7137fbb9e52ca79c6/AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:support-v4:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/61f0ebae76013e7a878a9ebb6d56f7c1/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/61f0ebae76013e7a878a9ebb6d56f7c1/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/498a0121573ae33207d3a007396ddccc/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/498a0121573ae33207d3a007396ddccc/AndroidManifest.xml:7:5-9:41
 MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/4354c26ef86d85b163adcff14d7a45a3/AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/4354c26ef86d85b163adcff14d7a45a3/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.f0ris.sweetalert:library:1.5.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/library-1.5.1.aar/e75d1f0c846ee375059929c25f2eee99/AndroidManifest.xml:7:5-9:41
@@ -438,8 +483,6 @@ MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/shanto/.gradle/cache
 MERGED from [android.arch.lifecycle:extensions:1.1.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/12b03ed2da0e65ee03b1045a51a1bbd6/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/298b9868fdc49c7d086218e481e77b00/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/298b9868fdc49c7d086218e481e77b00/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/a024bbbce733f08015682468bfa11cf0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/a024bbbce733f08015682468bfa11cf0/AndroidManifest.xml:20:5-44
 MERGED from [com.pnikosis:materialish-progress:1.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/materialish-progress-1.0.aar/fa894b8e864832f6202e9594b562fe96/AndroidManifest.xml:7:5-9:41
 MERGED from [com.pnikosis:materialish-progress:1.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/materialish-progress-1.0.aar/fa894b8e864832f6202e9594b562fe96/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/19dd5836b1e24d762ba9ccd1a7c0f2df/AndroidManifest.xml:20:5-44
@@ -448,6 +491,8 @@ MERGED from [com.android.support:support-fragment:28.0.0] /home/shanto/.gradle/c
 MERGED from [com.android.support:support-fragment:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a15034bb8b4062efc67efe04fb072567/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/f32cbadcffca7b8b6df8d57a01b4c4f1/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/f32cbadcffca7b8b6df8d57a01b4c4f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/a024bbbce733f08015682468bfa11cf0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/a024bbbce733f08015682468bfa11cf0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:customtabs:27.1.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/ecad16e8f22e75f60a2ebe46d4c843b0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:customtabs:27.1.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/ecad16e8f22e75f60a2ebe46d4c843b0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/e4206c481afda478ea8fbe6c80d72b6c/AndroidManifest.xml:20:5-44
@@ -500,6 +545,8 @@ MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/shanto/.gra
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/8661e1c02d097f48ad4488055b395b0c/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:print:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/316ac993a21e4fde35d33d5e9cefb503/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:print:28.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/316ac993a21e4fde35d33d5e9cefb503/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/dbbed13efed6431e0818d18959bfae38/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/dbbed13efed6431e0818d18959bfae38/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/848fd1ed689a1323525ab644a3107047/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/848fd1ed689a1323525ab644a3107047/AndroidManifest.xml:20:5-44
 INJECTED from /home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/src/main/AndroidManifest.xml
@@ -522,6 +569,8 @@ MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/shanto/.g
 MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/18618215bfb1e93ff3adadf6102eca1a/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/61853dc3df5a12c0ef2e5b7e9fde9a08/AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/61853dc3df5a12c0ef2e5b7e9fde9a08/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/025dee72eeccaa16fb438006e5d5e9f4/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-16.0.1.aar/025dee72eeccaa16fb438006e5d5e9f4/AndroidManifest.xml:7:5-79
 	android:name
 		ADDED from [com.firebaseui:firebase-ui-auth:4.1.0] /home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.1.0.aar/a1dadea201e9411a78684405355464f5/AndroidManifest.xml:12:22-76
 meta-data#com.google.android.gms.version

@@ -3,7 +3,6 @@ package com.sasam.virtuallibrary.CodeGenerator;
 import java.util.List;
 
 public class NameRepository implements Container {
-    public String names[] = {"Robert" , "John" ,"Julie" , "Lora"};
     public String code;
     List<String> list;
     @Override

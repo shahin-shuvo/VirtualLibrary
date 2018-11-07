@@ -21,8 +21,12 @@ import cn.pedant.SweetAlert.SweetAlertDialog;
 
 public class join_group extends AppCompatActivity {
      public EditText joinCode;
+     public String grpID;
      public Button joinButton;
     public static Activity object;
+    boolean exist = false;
+     String status;
+
     private DatabaseReference  groupDatabase,mDatabase;
      String code;
     @Override
@@ -47,46 +51,21 @@ public class join_group extends AppCompatActivity {
         joinButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                code = joinCode.getText().toString();
-                if (!code.equals("") && !code.equals("")) {
-
-                    groupDatabase = MainActivity.Connection("Groups");
-                    groupDatabase.addValueEventListener(new ValueEventListener() {
-                        @Override
-                        public void onDataChange(DataSnapshot dataSnapshot) {
-
-                            for (DataSnapshot childSnapshot: dataSnapshot.getChildren()) {
-                                if(childSnapshot.child("code").getValue(String.class).equals(code))
-                                {
-                                    if(!join_group.this.isFinishing())
-                                    {
-                                    String grpID = childSnapshot.child("groupID").getValue(String.class);
-                                    MainActivity. Connection("Users").child(MainActivity.getUserID()).child("userGroupList").push().setValue(grpID);
-
-                                        showAlertSuccess();
-                                    }
-
-                                    joinCode.setText(null);
-                                    break;
-                                }
-
-                            }
+               // checkExistence();
+                checkExistence(new MyCallback() {
+                    @Override
+                    public void onCallback(boolean exist) {
+                        System.out.println("htryjetuyftyouhbuujbnjnk5jet6jmyu");
+                        System.out.println(exist);
+                        if (!exist)
+                           // System.out.println("htryjetuyftyouhbuujbnjnk5jet6jmyu");
+                            new normalMemberJoin(join_group.this).grpJoin();
+                        else
+                            new tryForReJoin(join_group.this).grpJoin();
 
 
-                        }
-                        @Override
-                        public void onCancelled(@NonNull DatabaseError databaseError) {}
-                    });
-
-                }
-                else {
-                    if(!join_group.this.isFinishing())
-                    {
-                        showAlertError();
                     }
-
-                }
-
+                });
 
 
             }
@@ -115,7 +94,7 @@ public class join_group extends AppCompatActivity {
     }
 
 
-    void showAlertSuccess(){
+     void showAlertSuccess(){
         new SweetAlertDialog(this, SweetAlertDialog.SUCCESS_TYPE)
                 .setTitleText("Group join successfull !")
                 .setConfirmText("Yes,Done!")
@@ -129,20 +108,63 @@ public class join_group extends AppCompatActivity {
                 })
                 .show();
     }
-    void showAlertError(){
-        new SweetAlertDialog(this, SweetAlertDialog.ERROR_TYPE)
-                .setTitleText("Oops...")
-                .setContentText("Something went wrong!")
-                .setConfirmText("Try again ?")
-                .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
-                    @Override
-                    public void onClick(SweetAlertDialog sDialog) {
-                        sDialog.dismissWithAnimation();
+
+    public void checkExistence(final MyCallback myCallback)
+    {
+
+        code = joinCode.getText().toString();
+        if (!code.equals("") && !code.equals("")) {
+
+            groupDatabase = MainActivity.Connection("Groups");
+            groupDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+
+                    for (DataSnapshot childSnapshot: dataSnapshot.getChildren()) {
+                        if(childSnapshot.child("code").getValue(String.class).equals(code))
+                        {
+                             grpID = childSnapshot.child("groupID").getValue(String.class);
+
+                             mDatabase = MainActivity.Connection("Users").child(MainActivity.getUserID()).child("userGroupList");
+                             mDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
+                                @Override
+                                public void onDataChange(DataSnapshot dataSnapshot) {
+
+                                    for (DataSnapshot childSnapshot: dataSnapshot.getChildren()) {
+                                        if(childSnapshot.getValue(String.class).equals(grpID))
+                                        {
+                                            System.out.println("#########################################");
+                                            System.out.println(childSnapshot.getValue(String.class));
+                                            System.out.println(grpID);
+                                            exist= true;
+                                            status = "true";
+                                            break;
+                                        }
+
+                                    }
+                                    myCallback.onCallback(exist);
+
+
+                                }
+                                @Override
+                                public void onCancelled(@NonNull DatabaseError databaseError) {}
+                            });
+
+                        }
 
                     }
-                })
-                .show();
+
+
+                }
+                @Override
+                public void onCancelled(@NonNull DatabaseError databaseError) {}
+            });
+
+        }
     }
 
+    public interface MyCallback {
+        void onCallback(boolean exist);
+    }
 
 }
