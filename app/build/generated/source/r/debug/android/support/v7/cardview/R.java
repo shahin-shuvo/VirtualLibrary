@@ -22,15 +22,15 @@ public final class R {
         public static final int contentPaddingTop = 0x7f0300b9;
     }
     public static final class color {
-        public static final int cardview_dark_background = 0x7f050031;
-        public static final int cardview_light_background = 0x7f050032;
-        public static final int cardview_shadow_end_color = 0x7f050033;
-        public static final int cardview_shadow_start_color = 0x7f050034;
+        public static final int cardview_dark_background = 0x7f05003d;
+        public static final int cardview_light_background = 0x7f05003e;
+        public static final int cardview_shadow_end_color = 0x7f05003f;
+        public static final int cardview_shadow_start_color = 0x7f050040;
     }
     public static final class dimen {
-        public static final int cardview_compat_inset_shadow = 0x7f060052;
-        public static final int cardview_default_elevation = 0x7f060053;
-        public static final int cardview_default_radius = 0x7f060054;
+        public static final int cardview_compat_inset_shadow = 0x7f06005a;
+        public static final int cardview_default_elevation = 0x7f06005b;
+        public static final int cardview_default_radius = 0x7f06005c;
     }
     public static final class style {
         public static final int Base_CardView = 0x7f100017;

@@ -53,6 +53,13 @@
     <color name="material_purple_a700">#AA00FF</color>
     <color name="material_red_a200">#FF5252</color>
 
+    <color name="colorIndivateTab">#FFFFFF</color>
+    <color name="colorCardView">#f7f7f7</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_500">#a4a4a4</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_800">#212121</color>
+
     <color name="tab2">#4FC3F7</color>
     <color name="tab1">#00ACC1</color>
     <color name="tab3">#DD2C00</color>
