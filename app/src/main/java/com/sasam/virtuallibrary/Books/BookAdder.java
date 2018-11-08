@@ -133,13 +133,12 @@ public class BookAdder extends AppCompatActivity {
                         public void onSuccess(Uri uri) {
                             downloadUrl = uri.toString();
                             progressDialog.dismiss();
-<<<<<<< Updated upstream
+
                            // Toast.makeText(BookAdder.this, downloadUrl, Toast.LENGTH_LONG).show();
-=======
 
                             Toast.makeText(BookAdder.this, downloadUrl, Toast.LENGTH_LONG).show();
                             uploadData();
->>>>>>> Stashed changes
+
                         }
                     });
                 }

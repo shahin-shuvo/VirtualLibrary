@@ -208,7 +208,7 @@ public class BookAdderFragment extends Fragment {
         for(int i = 0; i<indices.size(); i++){
             Book b = bookList.get(indices.get(i));
 
-          //  ref.child(b.getBookId()).child("groupID").setValue(groupId);
+            ref.child(b.getBookId()).child("groupID").setValue(groupId);
 
             stringBuilder.append(b.getBookName());
             stringBuilder.append("\n");
