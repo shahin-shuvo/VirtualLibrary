@@ -59,7 +59,7 @@
         <activity android:name=".Books.BookAdder" />
         <activity android:name=".IndividualGroup.GroupTimeLine" />
         <activity android:name=".IndividualGroup.VisitMemberProfile" />
-<<<<<<< Updated upstream
+
         <activity android:name=".IndividualGroup.NewsFeed.PostCommentActivity" />
 
         <activity
@@ -84,11 +84,11 @@
         <activity android:name=".ChatRoom.ui.AddGroupActivity"
             android:theme="@style/MyThemeNoActionbar"/>
 
-=======
+
         <activity android:name=".Books.BookAdder" />
         <activity android:name=".Books.BookDetails" />
         <activity android:name=".Books.BookListActivity"></activity>
->>>>>>> Stashed changes
+
     </application>
 
 </manifest>

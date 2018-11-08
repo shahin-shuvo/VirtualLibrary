@@ -32,16 +32,13 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.sasam.virtuallibrary.Authentication.AuthActivity;
-<<<<<<< Updated upstream
 import com.sasam.virtuallibrary.Books.BookListActivity;
 import com.sasam.virtuallibrary.ChatRoom.ChatListActivity;
 import com.sasam.virtuallibrary.ChatRoom.data.FriendDB;
 import com.sasam.virtuallibrary.ChatRoom.data.GroupDB;
 import com.sasam.virtuallibrary.ChatRoom.service.ServiceUtils;
-=======
 import com.sasam.virtuallibrary.Books.BookDetails;
 import com.sasam.virtuallibrary.Books.BookListActivity;
->>>>>>> Stashed changes
 import com.sasam.virtuallibrary.CreateGroup.createGroup;
 import com.sasam.virtuallibrary.Groups.GroupDetails;
 import com.sasam.virtuallibrary.Groups.myGroupFragment;
@@ -265,10 +262,7 @@ public class MainActivity extends AppCompatActivity
                     case R.id.navigation_books:
                         Intent intent = new Intent(MainActivity.this, BookListActivity.class);
                         startActivity(intent);
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
                         return true;
                 }
                 return false;

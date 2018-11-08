@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "outputFile": "/home/arif/Desktop/Android project/VirtualLibrary-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/shanto/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.1.0.aar/a1dadea201e9411a78684405355464f5/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "source": "/home/arif/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-4.1.0.aar/9ed081005e49c4ca38a9f7ed83094abb/res/values-sw360dp-v13/values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

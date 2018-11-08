@@ -1,20 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/home/arif/Desktop/Android project/VirtualLibrary-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/shanto/.gradle/caches/transforms-1/files-1.1/bottom-bar-1.3.9.aar/15115d403816997fe381151647812494/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/home/arif/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/5e8a3962087ca980fb43b0dbc2344bed/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "57",
-                        "endOffsets": "108"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "113,182,251,321,395,471,530,601",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "177,246,316,390,466,525,596,664"
                     }
                 },
                 {
-                    "source": "/home/shanto/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/745da8886172c0b121e1e0a4f489e277/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/home/arif/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/171e78f2efcc162b275e982677f8c473/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -33,20 +40,13 @@
                     }
                 },
                 {
-                    "source": "/home/shanto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/19dd5836b1e24d762ba9ccd1a7c0f2df/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/home/arif/.gradle/caches/transforms-1/files-1.1/bottom-bar-1.3.9.aar/cf20f47b08c6592633f1e8cbf8942250/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,193,263,337,413,472,543",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "119,188,258,332,408,467,538,606"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "113,182,251,321,395,471,530,601",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "177,246,316,390,466,525,596,664"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
                     }
                 }
             ]

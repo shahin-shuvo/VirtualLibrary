@@ -1,4 +1,0 @@
-#Wed Nov 07 20:33:20 BDT 2018
-base.0=/home/shanto/AndroidStudioProjects/backup/5/VirtualLibrary-master/app/build/intermediates/transforms/dexMerger/debug/6
-path.0=classes.dex
-renamed.0=classes.dex
