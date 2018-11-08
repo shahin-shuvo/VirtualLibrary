@@ -85,9 +85,6 @@
             android:theme="@style/MyThemeNoActionbar"/>
 
 
-        <activity android:name=".Books.BookAdder" />
-        <activity android:name=".Books.BookDetails" />
-        <activity android:name=".Books.BookListActivity"></activity>
 
     </application>
 

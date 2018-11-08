@@ -37,8 +37,6 @@ import com.sasam.virtuallibrary.ChatRoom.ChatListActivity;
 import com.sasam.virtuallibrary.ChatRoom.data.FriendDB;
 import com.sasam.virtuallibrary.ChatRoom.data.GroupDB;
 import com.sasam.virtuallibrary.ChatRoom.service.ServiceUtils;
-import com.sasam.virtuallibrary.Books.BookDetails;
-import com.sasam.virtuallibrary.Books.BookListActivity;
 import com.sasam.virtuallibrary.CreateGroup.createGroup;
 import com.sasam.virtuallibrary.Groups.GroupDetails;
 import com.sasam.virtuallibrary.Groups.myGroupFragment;
@@ -254,14 +252,13 @@ public class MainActivity extends AppCompatActivity
 //                                .replace(R.id.content_main, new EventFragment())
 //                                .commit();
                         return true;
-                    case R.id.navigation_profile:
-//                        fragmentManager.beginTransaction()
-//                                .replace(R.id.content_main, new ProfileFragment())
-//                                .commit();
+                    case R.id.navigation_chat:
+                         Intent intent = new Intent(MainActivity.this, ChatListActivity.class);
+                         startActivity(intent);
                         return true;
                     case R.id.navigation_books:
-                        Intent intent = new Intent(MainActivity.this, BookListActivity.class);
-                        startActivity(intent);
+                        Intent intent2 = new Intent(MainActivity.this, BookListActivity.class);
+                        startActivity(intent2);
 
                         return true;
                 }

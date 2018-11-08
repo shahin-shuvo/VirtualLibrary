@@ -9,6 +9,7 @@ import android.view.MenuItem;
 
 import com.roughike.bottombar.BottomBar;
 import com.roughike.bottombar.OnMenuTabClickListener;
+import com.sasam.virtuallibrary.GroupLibrary.LibraryFragment;
 import com.sasam.virtuallibrary.IndividualGroup.NewsFeed.GroupNewsFeed;
 import com.sasam.virtuallibrary.R;
 
@@ -62,6 +63,20 @@ public class GroupTimeLine extends AppCompatActivity {
                    sendData();
                    // bottombar.getBar().setBackgroundColor(getResources().getColor(R.color.tab1));
                     bottombar.setActiveTabColor("#154360");
+
+                }
+                else if(menuItemId == R.id.allbooks){
+                    bottombar.setActiveTabColor("#DD2C00");
+
+                    LibraryFragment fragment = new LibraryFragment ();
+                    Bundle bundle = new Bundle();
+                    bundle.putString("groupID", groupId);
+                    fragment .setArguments(bundle);
+                    //THEN NOW SHOW OUR FRAGMENT
+                    android.support.v4.app.FragmentTransaction fragmentTransaction =
+                            getSupportFragmentManager().beginTransaction();
+                    fragmentTransaction.replace(R.id.bottomTabGroupPage, fragment);
+                    fragmentTransaction.commit();
 
                 }
                // bottombar.setBackgroundColor(getResources().getColor(R.color.bottom_bar_color));

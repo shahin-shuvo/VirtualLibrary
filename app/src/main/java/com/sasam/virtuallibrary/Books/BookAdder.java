@@ -134,11 +134,9 @@ public class BookAdder extends AppCompatActivity {
                             downloadUrl = uri.toString();
                             progressDialog.dismiss();
 
-                           // Toast.makeText(BookAdder.this, downloadUrl, Toast.LENGTH_LONG).show();
 
                             Toast.makeText(BookAdder.this, downloadUrl, Toast.LENGTH_LONG).show();
                             uploadData();
-
                         }
                     });
                 }
