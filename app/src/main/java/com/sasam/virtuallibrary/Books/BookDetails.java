@@ -2,21 +2,15 @@ package com.sasam.virtuallibrary.Books;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
-import android.net.Uri;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -28,7 +22,6 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.sasam.virtuallibrary.R;
 import com.sasam.virtuallibrary.Util.GlideApp;
-import com.sasam.virtuallibrary.Util.MyAppGlideModule;
 
 
 public class BookDetails extends AppCompatActivity {
@@ -45,6 +38,12 @@ public class BookDetails extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_book_details);
+        this.setTitle("Book Details");
+        if(getSupportActionBar()!=null)
+        {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayShowHomeEnabled(true);
+        }
         Book book = (Book) getIntent().getSerializableExtra("selected");
 
 
@@ -144,8 +143,22 @@ public class BookDetails extends AppCompatActivity {
         bookDescription.setText(book.getDescription());
         bookEdition.setText(book.getEdition());
         bookPublisher.setText(book.getPublisher());
-        bookStatus.setText("Available");
+        if(book.getCurrentOwner().equals("-1")) {
+            bookStatus.setText("Available");
+        }
+        else  bookStatus.setText("Unavailable");
 
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        if(item.getItemId()==android.R.id.home)
+        {
+            finish();
+            // this.getSupportFragmentManager().popBackStack();
+        }
+        return true;
     }
 
 

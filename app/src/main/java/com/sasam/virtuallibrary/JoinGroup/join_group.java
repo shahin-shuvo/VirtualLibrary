@@ -57,11 +57,16 @@ public class join_group extends AppCompatActivity {
                     public void onCallback(boolean exist) {
                         System.out.println("htryjetuyftyouhbuujbnjnk5jet6jmyu");
                         System.out.println(exist);
-                        if (!exist)
-                           // System.out.println("htryjetuyftyouhbuujbnjnk5jet6jmyu");
-                            new normalMemberJoin(join_group.this).grpJoin();
-                        else
-                            new tryForReJoin(join_group.this).grpJoin();
+                        JoinFactory joinFactory = new JoinFactory();
+                        if (!exist) {
+                            Join join1 = joinFactory.getJoinType("normal", object);
+                            join1.grpJoin();
+                        }
+                        else{
+                            Join join2 = joinFactory.getJoinType("rejoin", object);
+                            join2.grpJoin();
+                        }
+
 
 
                     }
@@ -111,7 +116,7 @@ public class join_group extends AppCompatActivity {
 
     public void checkExistence(final MyCallback myCallback)
     {
-
+        exist = false;
         code = joinCode.getText().toString();
         if (!code.equals("") && !code.equals("")) {
 

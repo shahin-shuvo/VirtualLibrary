@@ -37,6 +37,7 @@ public class GroupTimeLine extends AppCompatActivity {
 
         bottombar = findViewById(R.id.bottombarTimeline);
         bottombar = BottomBar.attach(this,savedInstanceState);
+        bottombar.setActiveTabColor("#B03A2E");
 
         bottombar.setItemsFromMenu(R.menu.bottommenu_group, new OnMenuTabClickListener() {
 
@@ -55,18 +56,16 @@ public class GroupTimeLine extends AppCompatActivity {
                     fragmentTransaction.replace(R.id.bottomTabGroupPage, myFragment);
                     fragmentTransaction.commit();
                     // bottombar.getBar().setBackgroundColor(getResources().getColor(R.color.tab2));
-                    bottombar.setActiveTabColor("#154360");
+                  //  bottombar.setActiveTabColor("#154360");
 
                 }
                 else if(menuItemId == R.id.peoples)
                 {
                    sendData();
-                   // bottombar.getBar().setBackgroundColor(getResources().getColor(R.color.tab1));
-                    bottombar.setActiveTabColor("#154360");
+
 
                 }
                 else if(menuItemId == R.id.allbooks){
-                    bottombar.setActiveTabColor("#DD2C00");
 
                     LibraryFragment fragment = new LibraryFragment ();
                     Bundle bundle = new Bundle();
@@ -79,7 +78,6 @@ public class GroupTimeLine extends AppCompatActivity {
                     fragmentTransaction.commit();
 
                 }
-               // bottombar.setBackgroundColor(getResources().getColor(R.color.bottom_bar_color));
 
 
 

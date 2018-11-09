@@ -3,7 +3,6 @@ package com.sasam.virtuallibrary.GroupLibrary;
 
 import android.content.Intent;
 import android.os.Bundle;
-
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -23,8 +22,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.sasam.virtuallibrary.Books.Book;
-import com.sasam.virtuallibrary.Books.BookDetails;
-import com.sasam.virtuallibrary.Books.BookListActivity;
 import com.sasam.virtuallibrary.R;
 
 import java.util.ArrayList;
@@ -142,18 +139,23 @@ public class LibraryFragment extends Fragment {
                 Book book = bookList.get(position);
 
                 //  String bookName = book.getBookName();
-                 Toast.makeText(getActivity(), book.getBookName(), Toast.LENGTH_SHORT).show();
+                // Toast.makeText(getActivity(), book.getBookName(), Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getActivity(),BookInfoFragment.class);
 
-                BookInfoFragment fragment = new BookInfoFragment();
+              //  BookInfoFragment fragment = new BookInfoFragment();
                 Bundle bundle = new Bundle();
-                bundle.putString("groupID", groupId);
-                bundle.putSerializable("selected", book);
-                fragment.setArguments(bundle);
+              //  bundle.putString("groupID", groupId);
+                //bundle.putSerializable("selected", book);
+                intent.putExtra("selected", book);
+                intent.putExtra("groupID", groupId);
+                startActivity(intent);
+
+             /*   fragment.setArguments(bundle);
 
                 android.support.v4.app.FragmentTransaction fragmentTransaction =
                         getFragmentManager().beginTransaction();
                 fragmentTransaction.replace(R.id.bottomTabGroupPage, fragment);
-                fragmentTransaction.commit();
+                fragmentTransaction.commit();*/
             }
         });
 

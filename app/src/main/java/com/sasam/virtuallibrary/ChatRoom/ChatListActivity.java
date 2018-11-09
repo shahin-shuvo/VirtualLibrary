@@ -1,6 +1,5 @@
 package com.sasam.virtuallibrary.ChatRoom;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
@@ -15,7 +14,6 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
-
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -124,7 +122,7 @@ public class ChatListActivity extends AppCompatActivity {
      */
     private void initTab() {
         tabLayout = (TabLayout) findViewById(R.id.tabs);
-        tabLayout.setSelectedTabIndicatorColor(getResources().getColor(R.color.colorIndivateTab));
+        tabLayout.setSelectedTabIndicatorColor(getResources().getColor(R.color.tab1));
         setupViewPager(viewPager);
         tabLayout.setupWithViewPager(viewPager);
         setupTabIcons();
@@ -159,7 +157,7 @@ public class ChatListActivity extends AppCompatActivity {
             public void onPageSelected(int position) {
                 ServiceUtils.stopServiceFriendChat(getApplicationContext(), false);
                 if (adapter.getItem(position) instanceof FriendsFragment) {
-                    floatButton.setImageResource(R.drawable.plus);
+                    floatButton.setImageResource(R.drawable.ic_add_24dp);
                     floatButton.show();
                     floatButton.setOnClickListener(((FriendsFragment) adapter.getItem(position)).onClickFloatButton.getInstance(ChatListActivity.this));
                 } else if (adapter.getItem(position) instanceof GroupFragment) {
@@ -231,5 +229,12 @@ public class ChatListActivity extends AppCompatActivity {
             // return null to display only the icon
             return null;
         }
+    }
+
+    @Override
+    public void onBackPressed()
+    {
+        super.onBackPressed();
+        finish();
     }
 }

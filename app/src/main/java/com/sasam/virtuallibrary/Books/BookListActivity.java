@@ -1,16 +1,16 @@
 package com.sasam.virtuallibrary.Books;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
-import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -19,12 +19,10 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.google.firebase.storage.FirebaseStorage;
 import com.sasam.virtuallibrary.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 
 interface RepositoryObserver {
@@ -148,8 +146,14 @@ public class BookListActivity extends AppCompatActivity implements RepositoryObs
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setTitle("My Library");
+
         setContentView(R.layout.activity_book_list);
+        this.setTitle("My Library");
+        if(getSupportActionBar()!=null)
+        {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayShowHomeEnabled(true);
+        }
 
         mUserDataRepository = UserDataRepository.getInstance();
         mUserDataRepository.registerObserver(this);
@@ -214,5 +218,15 @@ public class BookListActivity extends AppCompatActivity implements RepositoryObs
     public void onBackPressed() {
         super.onBackPressed();
         this.finish();
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        if(item.getItemId()==android.R.id.home)
+        {
+            finish();
+        }
+        return true;
     }
 }

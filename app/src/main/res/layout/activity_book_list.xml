@@ -17,6 +17,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
+            android:background="#36454F"
             android:layout_gravity="end|bottom"
             android:layout_margin="16dp"
             app:borderWidth="0dp"

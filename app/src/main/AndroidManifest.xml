@@ -57,19 +57,18 @@
         <activity android:name=".JoinGroup.join_group" />
         <activity android:name=".Books.BookListActivity" />
         <activity android:name=".Books.BookAdder" />
+        <activity android:name=".Books.BookDetails" />
         <activity android:name=".IndividualGroup.GroupTimeLine" />
         <activity android:name=".IndividualGroup.VisitMemberProfile" />
-
         <activity android:name=".IndividualGroup.NewsFeed.PostCommentActivity" />
-
         <activity
             android:name=".UI.About"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".ChatRoom.ChatListActivity"
+            android:label="@string/Chat"
             android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait"
-            android:label="@string/Chat"/>
+            android:screenOrientation="portrait" />
 
         <service
             android:name=".ChatRoom.service.FriendChatService"
@@ -78,14 +77,13 @@
 
         <activity
             android:name=".ChatRoom.ui.ChatActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".ChatRoom.ChatListActivity"/>
-
-        <activity android:name=".ChatRoom.ui.AddGroupActivity"
-            android:theme="@style/MyThemeNoActionbar"/>
-
-
-
+            android:parentActivityName=".ChatRoom.ChatListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChatRoom.ui.AddGroupActivity"
+            android:theme="@style/MyThemeNoActionbar" />
+        <activity android:name=".GroupLibrary.BookInfoFragment" />
+        <activity android:name=".BookRequest.book_request_page"></activity>
     </application>
 
 </manifest>

@@ -3,7 +3,6 @@ package com.sasam.virtuallibrary.GroupLibrary;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -12,9 +11,7 @@ import android.util.SparseBooleanArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -214,7 +211,7 @@ public class BookAdderFragment extends Fragment {
             stringBuilder.append("\n");
         }
 
-        Toast.makeText(context, stringBuilder.toString(), Toast.LENGTH_LONG).show();
+      //  Toast.makeText(context, stringBuilder.toString(), Toast.LENGTH_LONG).show();
 
     }
 

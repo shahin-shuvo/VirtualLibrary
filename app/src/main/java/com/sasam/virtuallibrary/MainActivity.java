@@ -31,7 +31,9 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.roughike.bottombar.BottomBar;
 import com.sasam.virtuallibrary.Authentication.AuthActivity;
+import com.sasam.virtuallibrary.BookRequest.book_request_page;
 import com.sasam.virtuallibrary.Books.BookListActivity;
 import com.sasam.virtuallibrary.ChatRoom.ChatListActivity;
 import com.sasam.virtuallibrary.ChatRoom.data.FriendDB;
@@ -51,6 +53,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     private Button create,cancel;
+    BottomBar bottombar;
     public EditText groupName,groupCode;
     public String CurrentUser ;
     public  Dialog dialog1;
@@ -150,6 +153,12 @@ public class MainActivity extends AppCompatActivity
                 });
                 popupMenu.show();
                 return true;
+
+            case R.id.notification:
+                Intent intent = new Intent(getApplicationContext(), book_request_page.class);
+                startActivity(intent);
+
+
             default:
                 return true;
         }
@@ -234,6 +243,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void setupBottomNavigation() {
+
         BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
                 = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
@@ -243,20 +253,15 @@ public class MainActivity extends AppCompatActivity
 
                 switch (item.getItemId()) {
                     case R.id.navigation_home:
-//                        fragmentManager.beginTransaction()
-//                                .replace(R.id.content_main, new HomeFragment())
-//                                .commit();
-                        return true;
-                    case R.id.navigation_events:
-//                        fragmentManager.beginTransaction()
-//                                .replace(R.id.content_main, new EventFragment())
-//                                .commit();
+                        loadMyGroupPage();
                         return true;
                     case R.id.navigation_chat:
-                         Intent intent = new Intent(MainActivity.this, ChatListActivity.class);
-                         startActivity(intent);
+                        bottomNavigation.getMenu().getItem(0).setChecked(true);
+                        Intent intent = new Intent(MainActivity.this, ChatListActivity.class);
+                        startActivity(intent);
                         return true;
                     case R.id.navigation_books:
+                        bottomNavigation.getMenu().getItem(0).setChecked(true);
                         Intent intent2 = new Intent(MainActivity.this, BookListActivity.class);
                         startActivity(intent2);
 
@@ -267,7 +272,10 @@ public class MainActivity extends AppCompatActivity
 
         };
         bottomNavigation = findViewById(R.id.navigation);
+
         bottomNavigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
+
     }
 
     public static DatabaseReference Connection(String ref){

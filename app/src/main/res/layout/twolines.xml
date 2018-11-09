@@ -16,7 +16,7 @@
                 android:layout_marginLeft="1dp"
                 android:text="TextView"
                 android:textColor="@color/com_facebook_messenger_blue"
-                android:textSize="15sp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
             <TextView
                 android:id="@+id/line_b"
@@ -27,7 +27,7 @@
                 android:layout_marginLeft="1dp"
                 android:text="TextView"
                 android:textColor="@color/material_blue_grey_90"
-                android:textSize="12sp" />
+                android:textSize="15sp" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="2dp" />
